@@ -1,0 +1,1581 @@
+{
+  "format_version": 1,
+  "input_sha256": {
+    "broad-debt-model/corrected-results.json": "e07c43b903d4a7e8037c314b73096ac7455e9d3591e8288f4eb348416a76b6f5",
+    "fed-balance-sheet-audit/z1-bank-positions/extension-2009-2019/broad-debt/results.json": "f3474638594011d48006bed9ce6e2bc34a0012919b625b535b6e36d103ed0e61",
+    "fed-balance-sheet-audit/z1-bank-positions/extension-2009-2019/row-split/check.json": "e19e342580836f3cbaaeefbf5f0c38e06ef3f0267491dd2cf47f1c62853434e1",
+    "fed-balance-sheet-audit/z1-bank-positions/extension-2009-2019/row-split/restrictive-check.json": "474f568030c07aa0fb7abe21bf6f96f8d45d0a641451adbc9457dc3c29e1b2df",
+    "fed-balance-sheet-audit/z1-bank-positions/row-split/check.json": "c67f88f62a6afcf6e87f98ec498e28cc514cc54076edfcc6d99fbfd74025f8f8",
+    "fed-balance-sheet-audit/z1-bank-positions/row-split/restrictive-check.json": "cf5decad24ce074cc72995b71e1d32bf3c7f2884ca547fce19cefc07f70c87e3"
+  },
+  "status": "conditional year-end snapshots; not a completed intervening history; broad results audited 20 November 2026",
+  "vintage": "2026-03-19",
+  "years": [
+    {
+      "broad": {
+        "debt": 47269649,
+        "domestic_gap": 6984263,
+        "pooled": 6592427,
+        "separate": 13576690,
+        "treasury_bonds_after_redemption": 6592427
+      },
+      "currency": 793499,
+      "deposits": 8959149,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2008/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 29562595,
+      "nonbank_money": 9752648,
+      "restrictive": [
+        {
+          "bonds": 7353471,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 10269381,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            10137888,
+            10294246
+          ],
+          "separate": 14409630,
+          "separate_range": [
+            14304680,
+            14429476
+          ]
+        },
+        {
+          "bonds": 7353471,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 10269381,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            10137888,
+            10294246
+          ],
+          "separate": 14409630,
+          "separate_range": [
+            14304680,
+            14429476
+          ]
+        },
+        {
+          "bonds": 7353471,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 7353471,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            7353471,
+            7353471
+          ],
+          "separate": 10169769,
+          "separate_range": [
+            10064819,
+            10189615
+          ]
+        },
+        {
+          "bonds": 7353471,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 7353471,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            7353471,
+            7353471
+          ],
+          "separate": 10169769,
+          "separate_range": [
+            10064819,
+            10189615
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2008
+    },
+    {
+      "broad": {
+        "debt": 47626211,
+        "domestic_gap": 6924112,
+        "pooled": 8003732,
+        "separate": 14927844,
+        "treasury_bonds_after_redemption": 8003732
+      },
+      "currency": 830636,
+      "deposits": 9411343,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2009/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 29889616,
+      "nonbank_money": 10241979,
+      "restrictive": [
+        {
+          "bonds": 8859150,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 10954766,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            10827384,
+            10990184
+          ],
+          "separate": 15550697,
+          "separate_range": [
+            15450309,
+            15578609
+          ]
+        },
+        {
+          "bonds": 8859150,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 10954766,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            10827384,
+            10990184
+          ],
+          "separate": 15550697,
+          "separate_range": [
+            15450309,
+            15578609
+          ]
+        },
+        {
+          "bonds": 8859150,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 8859150,
+          "pooled_at_opening_bond_stock": 12,
+          "pooled_range": [
+            8859150,
+            8859150
+          ],
+          "separate": 12034341,
+          "separate_range": [
+            11933953,
+            12062253
+          ]
+        },
+        {
+          "bonds": 8859150,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 9749064,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            9749064,
+            9749064
+          ],
+          "separate": 12034341,
+          "separate_range": [
+            11933953,
+            12062253
+          ]
+        }
+      ],
+      "states": 24,
+      "year": 2009
+    },
+    {
+      "broad": {
+        "debt": 48160606,
+        "domestic_gap": 6068734,
+        "pooled": 9365155,
+        "separate": 15433889,
+        "treasury_bonds_after_redemption": 9365155
+      },
+      "currency": 886486,
+      "deposits": 9607954,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2010/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 30808685,
+      "nonbank_money": 10494440,
+      "restrictive": [
+        {
+          "bonds": 10504401,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 11587428,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            11438021,
+            11622670
+          ],
+          "separate": 16802198,
+          "separate_range": [
+            16686745,
+            16829431
+          ]
+        },
+        {
+          "bonds": 10504401,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 11587428,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            11468349,
+            11622670
+          ],
+          "separate": 16802198,
+          "separate_range": [
+            16686745,
+            16829431
+          ]
+        },
+        {
+          "bonds": 10504401,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 10504401,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            10504401,
+            10504401
+          ],
+          "separate": 13101240,
+          "separate_range": [
+            12985787,
+            13128473
+          ]
+        },
+        {
+          "bonds": 10504401,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 11468349,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            11468349,
+            11468349
+          ],
+          "separate": 13101240,
+          "separate_range": [
+            12985787,
+            13128473
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2010
+    },
+    {
+      "broad": {
+        "debt": 49607764,
+        "domestic_gap": 5719727,
+        "pooled": 10714218,
+        "separate": 16433945,
+        "treasury_bonds_after_redemption": 10714218
+      },
+      "currency": 970821,
+      "deposits": 10371378,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2011/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 31861331,
+      "nonbank_money": 11342199,
+      "restrictive": [
+        {
+          "bonds": 11641982,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 12197553,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            12021163,
+            12227867
+          ],
+          "separate": 17785083,
+          "separate_range": [
+            17645875,
+            17809008
+          ]
+        },
+        {
+          "bonds": 11641982,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 12442340,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            12442340,
+            12442340
+          ],
+          "separate": 17785083,
+          "separate_range": [
+            17645875,
+            17809008
+          ]
+        },
+        {
+          "bonds": 11641982,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 11641982,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            11641982,
+            11641982
+          ],
+          "separate": 14272957,
+          "separate_range": [
+            14133749,
+            14296882
+          ]
+        },
+        {
+          "bonds": 11641982,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 12442340,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            12442340,
+            12442340
+          ],
+          "separate": 14272957,
+          "separate_range": [
+            14133749,
+            14296882
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2011
+    },
+    {
+      "broad": {
+        "debt": 51780042,
+        "domestic_gap": 5686762,
+        "pooled": 11830621,
+        "separate": 17517383,
+        "treasury_bonds_after_redemption": 11830621
+      },
+      "currency": 1053340,
+      "deposits": 11084969,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2012/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 33136951,
+      "nonbank_money": 12138309,
+      "restrictive": [
+        {
+          "bonds": 12822949,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 13005923,
+          "pooled_at_opening_bond_stock": 2,
+          "pooled_range": [
+            12822949,
+            13036024
+          ],
+          "separate": 18838401,
+          "separate_range": [
+            18689930,
+            18862534
+          ]
+        },
+        {
+          "bonds": 12822949,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 13752350,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            13752350,
+            13752350
+          ],
+          "separate": 18838401,
+          "separate_range": [
+            18689930,
+            18862534
+          ]
+        },
+        {
+          "bonds": 12822949,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 12822949,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            12822949,
+            12822949
+          ],
+          "separate": 15453856,
+          "separate_range": [
+            15305385,
+            15477989
+          ]
+        },
+        {
+          "bonds": 12822949,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 13752350,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            13752350,
+            13752350
+          ],
+          "separate": 15453856,
+          "separate_range": [
+            15305385,
+            15477989
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2012
+    },
+    {
+      "broad": {
+        "debt": 52784431,
+        "domestic_gap": 6521199,
+        "pooled": 12347930,
+        "separate": 18869129,
+        "treasury_bonds_after_redemption": 12347930
+      },
+      "currency": 1122121,
+      "deposits": 11677431,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2013/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 34423438,
+      "nonbank_money": 12799552,
+      "restrictive": [
+        {
+          "bonds": 13680640,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 14280295,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            14089847,
+            14310445
+          ],
+          "separate": 20475314,
+          "separate_range": [
+            20322418,
+            20499519
+          ]
+        },
+        {
+          "bonds": 13680640,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 15141799,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            15141799,
+            15141799
+          ],
+          "separate": 20475314,
+          "separate_range": [
+            20322418,
+            20499519
+          ]
+        },
+        {
+          "bonds": 13680640,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 13680640,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            13680640,
+            13680640
+          ],
+          "separate": 17027889,
+          "separate_range": [
+            16874993,
+            17052094
+          ]
+        },
+        {
+          "bonds": 13680640,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 15141799,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            15141799,
+            15141799
+          ],
+          "separate": 17027889,
+          "separate_range": [
+            16874993,
+            17052094
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2013
+    },
+    {
+      "broad": {
+        "debt": 55168868,
+        "domestic_gap": 6990927,
+        "pooled": 13048852,
+        "separate": 20039779,
+        "treasury_bonds_after_redemption": 13048852
+      },
+      "currency": 1220989,
+      "deposits": 12452986,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2014/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 35933482,
+      "nonbank_money": 13673975,
+      "restrictive": [
+        {
+          "bonds": 14416680,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 15680472,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            15505918,
+            15704437
+          ],
+          "separate": 22001858,
+          "separate_range": [
+            21862186,
+            22021034
+          ]
+        },
+        {
+          "bonds": 14416680,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 16148117,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            16148117,
+            16148117
+          ],
+          "separate": 22001858,
+          "separate_range": [
+            21862186,
+            22021034
+          ]
+        },
+        {
+          "bonds": 14416680,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 14416680,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            14416680,
+            14416680
+          ],
+          "separate": 18485701,
+          "separate_range": [
+            18346029,
+            18504877
+          ]
+        },
+        {
+          "bonds": 14416680,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 16148117,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            16148117,
+            16148117
+          ],
+          "separate": 18485701,
+          "separate_range": [
+            18346029,
+            18504877
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2014
+    },
+    {
+      "broad": {
+        "debt": 56076987,
+        "domestic_gap": 7456813,
+        "pooled": 13557201,
+        "separate": 21014014,
+        "treasury_bonds_after_redemption": 13557201
+      },
+      "currency": 1303232,
+      "deposits": 12945582,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2015/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 37243370,
+      "nonbank_money": 14248814,
+      "restrictive": [
+        {
+          "bonds": 15141072,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 16560634,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            16387913,
+            16580206
+          ],
+          "separate": 22983159,
+          "separate_range": [
+            22845505,
+            22998757
+          ]
+        },
+        {
+          "bonds": 15141072,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 16885806,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            16885806,
+            16885806
+          ],
+          "separate": 22983159,
+          "separate_range": [
+            22845505,
+            22998757
+          ]
+        },
+        {
+          "bonds": 15141072,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 15141072,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            15141072,
+            15141072
+          ],
+          "separate": 19350929,
+          "separate_range": [
+            19213275,
+            19366527
+          ]
+        },
+        {
+          "bonds": 15141072,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 16885806,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            16885806,
+            16885806
+          ],
+          "separate": 19350929,
+          "separate_range": [
+            19213275,
+            19366527
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2015
+    },
+    {
+      "broad": {
+        "debt": 58231278,
+        "domestic_gap": 7662250,
+        "pooled": 14236545,
+        "separate": 21898795,
+        "treasury_bonds_after_redemption": 14236545
+      },
+      "currency": 1384934,
+      "deposits": 13587031,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2016/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 38820354,
+      "nonbank_money": 14971965,
+      "restrictive": [
+        {
+          "bonds": 15983832,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 17453453,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            17279711,
+            17468343
+          ],
+          "separate": 23811159,
+          "separate_range": [
+            23673987,
+            23822915
+          ]
+        },
+        {
+          "bonds": 15983832,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 17723221,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            17723221,
+            17723221
+          ],
+          "separate": 23811159,
+          "separate_range": [
+            23673987,
+            23822915
+          ]
+        },
+        {
+          "bonds": 15983832,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 15983832,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            15983832,
+            15983832
+          ],
+          "separate": 19996521,
+          "separate_range": [
+            19859349,
+            20008277
+          ]
+        },
+        {
+          "bonds": 15983832,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 17723221,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            17723221,
+            17723221
+          ],
+          "separate": 19996521,
+          "separate_range": [
+            19859349,
+            20008277
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2016
+    },
+    {
+      "broad": {
+        "debt": 61023842,
+        "domestic_gap": 8211090,
+        "pooled": 14760148,
+        "separate": 22971238,
+        "treasury_bonds_after_redemption": 14760148
+      },
+      "currency": 1491451,
+      "deposits": 14069542,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2017/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 40374425,
+      "nonbank_money": 15560993,
+      "restrictive": [
+        {
+          "bonds": 16430866,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 18064535,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            17871161,
+            18079556
+          ],
+          "separate": 24844827,
+          "separate_range": [
+            24691430,
+            24856742
+          ]
+        },
+        {
+          "bonds": 16430866,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 18190384,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            18190384,
+            18190384
+          ],
+          "separate": 24844827,
+          "separate_range": [
+            24691430,
+            24856742
+          ]
+        },
+        {
+          "bonds": 16430866,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 16430866,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            16430866,
+            16430866
+          ],
+          "separate": 20795823,
+          "separate_range": [
+            20642426,
+            20807738
+          ]
+        },
+        {
+          "bonds": 16430866,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 18190384,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            18190384,
+            18190384
+          ],
+          "separate": 20795823,
+          "separate_range": [
+            20642426,
+            20807738
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2017
+    },
+    {
+      "broad": {
+        "debt": 63222065,
+        "domestic_gap": 7881647,
+        "pooled": 15900248,
+        "separate": 23781895,
+        "treasury_bonds_after_redemption": 15900248
+      },
+      "currency": 1587458,
+      "deposits": 14655439,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2018/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 43039267,
+      "nonbank_money": 16242897,
+      "restrictive": [
+        {
+          "bonds": 17842086,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 18413850,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            18220249,
+            18427709
+          ],
+          "separate": 25759718,
+          "separate_range": [
+            25606996,
+            25770650
+          ]
+        },
+        {
+          "bonds": 17842086,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 19460411,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            19460411,
+            19460411
+          ],
+          "separate": 25759718,
+          "separate_range": [
+            25606996,
+            25770650
+          ]
+        },
+        {
+          "bonds": 17842086,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 17904457,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            17904457,
+            17904457
+          ],
+          "separate": 21912098,
+          "separate_range": [
+            21759376,
+            21923030
+          ]
+        },
+        {
+          "bonds": 17842086,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 19460411,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            19460411,
+            19460411
+          ],
+          "separate": 21912098,
+          "separate_range": [
+            21759376,
+            21923030
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2018
+    },
+    {
+      "broad": {
+        "debt": 67171152,
+        "domestic_gap": 7897161,
+        "pooled": 16982728,
+        "separate": 24879889,
+        "treasury_bonds_after_redemption": 16982728
+      },
+      "currency": 1674178,
+      "deposits": 15522021,
+      "fed_equity_profile": "source_net_assets",
+      "id": "2019/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 45227257,
+      "nonbank_money": 17196199,
+      "restrictive": [
+        {
+          "bonds": 19018687,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 19018687,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            19018687,
+            19018687
+          ],
+          "separate": 26770722,
+          "separate_range": [
+            26610205,
+            26779215
+          ]
+        },
+        {
+          "bonds": 19018687,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "three",
+          "pooled": 20417263,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            20417263,
+            20417263
+          ],
+          "separate": 26770722,
+          "separate_range": [
+            26610205,
+            26779215
+          ]
+        },
+        {
+          "bonds": 19018687,
+          "central_bank": "F2",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 19018687,
+          "pooled_at_opening_bond_stock": 6,
+          "pooled_range": [
+            19018687,
+            19018687
+          ],
+          "separate": 22938064,
+          "separate_range": [
+            22777547,
+            22946557
+          ]
+        },
+        {
+          "bonds": 19018687,
+          "central_bank": "F3",
+          "completions": 6,
+          "menu": "five",
+          "pooled": 20417263,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            20417263,
+            20417263
+          ],
+          "separate": 22938064,
+          "separate_range": [
+            22777547,
+            22946557
+          ]
+        }
+      ],
+      "states": 12,
+      "year": 2019
+    },
+    {
+      "broad": {
+        "debt": 75168506,
+        "domestic_gap": 8468631,
+        "pooled": 19985140,
+        "separate": 28453771,
+        "treasury_bonds_after_redemption": 19985140
+      },
+      "currency": 1939490,
+      "deposits": 18850131,
+      "fed_equity_profile": "equity_correction",
+      "id": "2020/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 51316308,
+      "nonbank_money": 20789621,
+      "restrictive": [
+        {
+          "bonds": 23600853,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 23600853,
+          "pooled_at_opening_bond_stock": 12,
+          "pooled_range": [
+            23600853,
+            23600853
+          ],
+          "separate": 31351567,
+          "separate_range": [
+            31138637,
+            31360951
+          ]
+        },
+        {
+          "bonds": 23600853,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 25644017,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            25644017,
+            25644017
+          ],
+          "separate": 31351567,
+          "separate_range": [
+            31138637,
+            31360951
+          ]
+        },
+        {
+          "bonds": 23600853,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 23600853,
+          "pooled_at_opening_bond_stock": 12,
+          "pooled_range": [
+            23600853,
+            23600853
+          ],
+          "separate": 27472238,
+          "separate_range": [
+            27259308,
+            27481622
+          ]
+        },
+        {
+          "bonds": 23600853,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 25644017,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            25644017,
+            25644017
+          ],
+          "separate": 27472238,
+          "separate_range": [
+            27259308,
+            27481622
+          ]
+        }
+      ],
+      "states": 24,
+      "year": 2020
+    },
+    {
+      "broad": {
+        "debt": 80133987,
+        "domestic_gap": 8663116,
+        "pooled": 22814466,
+        "separate": 31477582,
+        "treasury_bonds_after_redemption": 22814466
+      },
+      "currency": 2095353,
+      "deposits": 20968024,
+      "fed_equity_profile": "equity_correction",
+      "id": "2021/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 55654762,
+      "nonbank_money": 23063377,
+      "restrictive": [
+        {
+          "bonds": 25284697,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 26480150,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            26133177,
+            26497550
+          ],
+          "separate": 35159908,
+          "separate_range": [
+            34909935,
+            35172443
+          ]
+        },
+        {
+          "bonds": 25284697,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "three",
+          "pooled": 27879025,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            27879025,
+            27879025
+          ],
+          "separate": 35159908,
+          "separate_range": [
+            34909935,
+            35172443
+          ]
+        },
+        {
+          "bonds": 25284697,
+          "central_bank": "F2",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 25284697,
+          "pooled_at_opening_bond_stock": 12,
+          "pooled_range": [
+            25284697,
+            25284697
+          ],
+          "separate": 31168110,
+          "separate_range": [
+            30918137,
+            31180645
+          ]
+        },
+        {
+          "bonds": 25284697,
+          "central_bank": "F3",
+          "completions": 12,
+          "menu": "five",
+          "pooled": 27879025,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            27879025,
+            27879025
+          ],
+          "separate": 31168110,
+          "separate_range": [
+            30918137,
+            31180645
+          ]
+        }
+      ],
+      "states": 24,
+      "year": 2021
+    },
+    {
+      "broad": {
+        "debt": 81333180,
+        "domestic_gap": 6950376,
+        "pooled": 24145605,
+        "separate": 31095981,
+        "treasury_bonds_after_redemption": 24145605
+      },
+      "currency": 2170946,
+      "deposits": 20686448,
+      "fed_equity_profile": "equity_correction",
+      "id": "2022/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 59143039,
+      "nonbank_money": 22857394,
+      "restrictive": [
+        {
+          "bonds": 26831577,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 27347249,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            26996668,
+            27369335
+          ],
+          "separate": 36465985,
+          "separate_range": [
+            36196364,
+            36482971
+          ]
+        },
+        {
+          "bonds": 26831577,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 29343378,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            29343378,
+            29343378
+          ],
+          "separate": 36465985,
+          "separate_range": [
+            36196364,
+            36482971
+          ]
+        },
+        {
+          "bonds": 26831577,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 26831577,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            26831577,
+            26831577
+          ],
+          "separate": 31735433,
+          "separate_range": [
+            31465812,
+            31752419
+          ]
+        },
+        {
+          "bonds": 26831577,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 29343378,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            29343378,
+            29343378
+          ],
+          "separate": 31735433,
+          "separate_range": [
+            31465812,
+            31752419
+          ]
+        }
+      ],
+      "states": 48,
+      "year": 2022
+    },
+    {
+      "broad": {
+        "debt": 85925233,
+        "domestic_gap": 5824791,
+        "pooled": 26528069,
+        "separate": 32352860,
+        "treasury_bonds_after_redemption": 26528069
+      },
+      "currency": 2211476,
+      "deposits": 20293420,
+      "fed_equity_profile": "equity_correction",
+      "id": "2023/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 62535480,
+      "nonbank_money": 22504896,
+      "restrictive": [
+        {
+          "bonds": 29451633,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 29451633,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            29451633,
+            29451633
+          ],
+          "separate": 36202937,
+          "separate_range": [
+            35957973,
+            36217199
+          ]
+        },
+        {
+          "bonds": 29451633,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 31734155,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            31734155,
+            31734155
+          ],
+          "separate": 36202937,
+          "separate_range": [
+            35957973,
+            36217199
+          ]
+        },
+        {
+          "bonds": 29451633,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 29451633,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            29451633,
+            29451633
+          ],
+          "separate": 31270463,
+          "separate_range": [
+            31025499,
+            31284725
+          ]
+        },
+        {
+          "bonds": 29451633,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 31734155,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            31734155,
+            31734155
+          ],
+          "separate": 31734155,
+          "separate_range": [
+            31734155,
+            31734155
+          ]
+        }
+      ],
+      "states": 48,
+      "year": 2023
+    },
+    {
+      "broad": {
+        "debt": 89864869,
+        "domestic_gap": 4416763,
+        "pooled": 28613618,
+        "separate": 33030381,
+        "treasury_bonds_after_redemption": 28613618
+      },
+      "currency": 2234292,
+      "deposits": 20871694,
+      "fed_equity_profile": "equity_correction",
+      "id": "2024/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 65639787,
+      "nonbank_money": 23105986,
+      "restrictive": [
+        {
+          "bonds": 31596263,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 31596263,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            31596263,
+            31596263
+          ],
+          "separate": 36330798,
+          "separate_range": [
+            36077770,
+            36343931
+          ]
+        },
+        {
+          "bonds": 31596263,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 33623183,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            33623183,
+            33623183
+          ],
+          "separate": 36330798,
+          "separate_range": [
+            36077770,
+            36343931
+          ]
+        },
+        {
+          "bonds": 31596263,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 31596263,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            31596263,
+            31596263
+          ],
+          "separate": 31596263,
+          "separate_range": [
+            31596263,
+            31596263
+          ]
+        },
+        {
+          "bonds": 31596263,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 33623183,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            33623183,
+            33623183
+          ],
+          "separate": 33623183,
+          "separate_range": [
+            33623183,
+            33623183
+          ]
+        }
+      ],
+      "states": 48,
+      "year": 2024
+    },
+    {
+      "broad": {
+        "debt": 96065956,
+        "domestic_gap": 3598592,
+        "pooled": 30608178,
+        "separate": 34206770,
+        "treasury_bonds_after_redemption": 30608178
+      },
+      "currency": 2307114,
+      "deposits": 21744110,
+      "fed_equity_profile": "equity_correction",
+      "id": "2025/holder_correction/equity_correction/observed_us_mix/agency_lookthrough",
+      "narrow_debt": 69662788,
+      "nonbank_money": 24051224,
+      "restrictive": [
+        {
+          "bonds": 33887091,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 33887091,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            33887091,
+            33887091
+          ],
+          "separate": 37287590,
+          "separate_range": [
+            37016277,
+            37299299
+          ]
+        },
+        {
+          "bonds": 33887091,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "three",
+          "pooled": 35742618,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            35742618,
+            35742618
+          ],
+          "separate": 37287590,
+          "separate_range": [
+            37016277,
+            37299299
+          ]
+        },
+        {
+          "bonds": 33887091,
+          "central_bank": "F2",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 33887091,
+          "pooled_at_opening_bond_stock": 24,
+          "pooled_range": [
+            33887091,
+            33887091
+          ],
+          "separate": 33887091,
+          "separate_range": [
+            33887091,
+            33887091
+          ]
+        },
+        {
+          "bonds": 33887091,
+          "central_bank": "F3",
+          "completions": 24,
+          "menu": "five",
+          "pooled": 35742618,
+          "pooled_at_opening_bond_stock": 0,
+          "pooled_range": [
+            35742618,
+            35742618
+          ],
+          "separate": 35742618,
+          "separate_range": [
+            35742618,
+            35742618
+          ]
+        }
+      ],
+      "states": 48,
+      "year": 2025
+    }
+  ]
+}

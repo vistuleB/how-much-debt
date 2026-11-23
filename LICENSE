@@ -1,0 +1,22 @@
+# License scope
+
+Copyright (c) 2026 John Paul Steinberger and contributors.
+
+Original source code in this repository (scripts, model implementations and
+tests, with their comments and docstrings) is licensed under the MIT License,
+LICENSES/MIT.txt.
+
+Original documentation (README.md, GLOSSARY.md and other standalone text) and
+the stored intermediate data produced by this project (completed balance
+sheets, executed runs and check results) are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0), LICENSES/CC-BY-4.0.txt:
+https://creativecommons.org/licenses/by/4.0/
+
+These are licenses for different materials, not a choice of either license
+for every file. They do not cover third-party material. The raw statistical
+releases in this repository (the Federal Reserve Board's Financial Accounts of
+the United States, H.4.1 release and Distributional Financial Accounts, listed
+in README.md and SOURCES.json) are reproduced unchanged. Unless otherwise
+indicated, information on the Board's website is in the public domain and may
+be copied and distributed without permission; the Board asks to be cited as
+the source.

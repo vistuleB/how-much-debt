@@ -1,0 +1,28 @@
+{
+  "title": "How much debt does money need? Replication files",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Steinberger, John Paul",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "description": "<p>Code and data that compute the transaction-based debt kernel, the least debt compatible with each sector's money and net financial position, for the United States 2001–2025, from the Federal Reserve's Financial Accounts, with independent checks of every stored balance sheet and of the transactions that reach the kernel. This is the replication package of the paper <em>How much debt does money need?</em> (Steinberger, 2026). <code>python3 -I paper-prep/paper_numbers.py</code> checks every number in the paper against the stored results.</p><p>Licences: code MIT; documentation and the project's stored data CC BY 4.0 (see LICENSE). The Federal Reserve data are reproduced unchanged; the Board's website states that its information is in the public domain unless otherwise indicated.</p>",
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "debt kernel",
+    "money",
+    "debt",
+    "sectoral balance sheets",
+    "financial accounts",
+    "flow of funds",
+    "stock-flow consistency",
+    "inside and outside money",
+    "money creation",
+    "debt reduction",
+    "netting"
+  ]
+}

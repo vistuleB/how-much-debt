@@ -1,0 +1,13 @@
+{
+  "backends": [
+    "erlang",
+    "javascript"
+  ],
+  "format_version": 1,
+  "sha256": {
+    "real-world/check.json": "ac5b82fc7d22d170b2b72047b67d56e061ec1abae5594e8b6cae79d3904c81be",
+    "row-split/check.json": "e19e342580836f3cbaaeefbf5f0c38e06ef3f0267491dd2cf47f1c62853434e1",
+    "row-split/restrictive-check.json": "474f568030c07aa0fb7abe21bf6f96f8d45d0a641451adbc9457dc3c29e1b2df"
+  },
+  "status": "byte-identical Erlang/JavaScript output after canonical shared-account ordering"
+}

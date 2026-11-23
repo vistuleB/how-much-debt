@@ -1,0 +1,65 @@
+{
+  "format_version": 1,
+  "status": "Explicit conditional benchmark completion; not historical identification",
+  "bank_population": "Z.1 L.110 private depository institutions, including credit unions and US-affiliated-area banks",
+  "source_vintage": "2026-03-19",
+  "units": "USD millions; normalization allocations rounded to nearest million, ties to even",
+  "headline": {
+    "bank_correction": "holder_correction",
+    "fed_correction_2020": "equity_correction",
+    "fed_correction_2008": "source_net_assets",
+    "mbs_allocation": "observed_us_mix",
+    "mbs_representation": "agency_lookthrough",
+    "treasury_regime": "R3",
+    "funding": "fixed",
+    "debt_perimeter": "B+L; J-inclusive alternative always reported",
+    "public_protection": "all nonbank non-debt assets"
+  },
+  "debt_B": "Treasury marketable plus nonmarketable securities. Holder marketable positions normalized to issuer face total with a common price factor. Nonmarketable Treasury securities assigned to nonbank H. Budget-agency and GSE issuer debt is in J, not Treasury B.",
+  "debt_L": "Z.1 L.214 loan instrument total minus federal-government loan liabilities (nonmarketable Treasuries already in B), private-DI other-loan funding, Treasury-owned loans and monetary-authority facility loans. All remaining instruments owed by nonbank H are included regardless of bank origination; no q/turnover estimator. Agency look-through redistributes this existing underlying principal between H, banks and Fed; it does not add principal. Treasury loan assets and Fed facility loans remain outside this particular L perimeter.",
+  "debt_J": "Selected eligible other claims: bank/Fed positions classified below, plus nonbank open-market paper, municipal/corporate/foreign bonds and the selected agency-security layer. Nonbank bank-issued securities are excluded from J_H because they are represented as Q_B^H. J-inclusive debt means exactly D+J_H+J_B+J_F, not all worldwide legal obligations.",
+  "valuation": {
+    "treasury": "Uniform market-to-face factor FL313161105 / FL893061105 applied to bank and Fed Treasury holdings; nonbank is the remaining face principal. An explicit projection assumption, not observed holder-specific prices.",
+    "agency": "Uniform issuer-face / holder-market factor FL893161705 / FL893061705. Fed observed MBS and bank observed US-chartered MBS components receive that same factor.",
+    "other_J": "Published balance/market measures retained as projected current repayment balances. No claim these equal instrument-specific legal face values. A complete face-valued J series remains unobserved.",
+    "equity": "Source financial assets plus annual measured nonfinancial assets minus financial liabilities, bridged to published equity instruments plus IMA net worth, then adjusted for explicit consolidation/valuation projections. Not FDIC capital and not regulatory capital.",
+    "2008": "No usable amortized-security observation; use source-valued net assets with explicit Treasury/agency normalization. Do not extrapolate the 2020 remainder."
+  },
+  "agency_split": {
+    "observed_US_bank_MBS": "L.111 sum LM763061805 + LM763061503 + LM763061603 + LM763061403; checked against total agency less LM763061795",
+    "other_bank_subsectors": "Remaining L.110 agency holdings after the US-chartered subtotal. Three allocations: no MBS, same MBS share as observed US-chartered banks, all MBS.",
+    "underlying_pool_principal": "L.126 FL413065005 plus L.125 securitized mortgages FL403065195 + FL403065495. Not all GSE mortgages; not the sum of mortgages and financing securities.",
+    "government_agency_holdings": "Assigned to agency issuer debt, not MBS, for this conditional completion; residual holder allocations are checked feasible.",
+    "guarantee_layer": "Agency look-through suppresses the agency MBS financing/guarantee layer from J and counts underlying mortgage principal once in L. Security-outside-D retains that layer in J and leaves underlying loans in H. These are distinct representations, not confidence bounds.",
+    "private_MBS": "Private MBS/CMOs in corporate/foreign bonds remain J. This sensitivity is specifically agency-MBS look-through, not a claim of complete look-through of every private structured security."
+  },
+  "bank_assets": {
+    "N_B": "Measured nonfinancial assets plus corporate equities, direct-investment equity, miscellaneous other equity and mutual-fund shares, less nontransferable Federal Reserve stock",
+    "J_B": "External-foreign-bank claims; FHLB deposits; bank repo/fed-funds assets; open-market paper; municipals; corporate/foreign bonds; direct-investment debt; life-insurance reserves; retained agency issuer/security layer",
+    "X_B_res": "Published miscellaneous bank assets, grossed negative Fed float counterpart, and nontransferable Federal Reserve stock",
+    "eligibility": "Conversion/settlement at projected balances is a model policy, not a finding about Fed legal purchase powers. No nonbank non-debt assets are monetized."
+  },
+  "bank_funding": {
+    "Q_B_H": "Foreign interbank borrowing outside selected bank perimeter, repo/fed funds, debt securities, other loans, direct-investment debt",
+    "Q_B_res": "Federal bank deposits, taxes payable, miscellaneous bank liabilities; held fixed",
+    "additional_internal_crossholdings": "Zero intra-bank repo and security positions beyond explicitly mapped L.202 interbank claims. Feasible marginal-allocation assumption, not an observed bilateral matrix. It is not bounded by the two small discrepancy sensitivities."
+  },
+  "fed": {
+    "N_F": "Annual measured nonfinancial assets plus corporate equities",
+    "J_F": "Other reserve deposits, swaps, repo assets, foreign securities, nonbank facility credit and selected agency layer",
+    "X_F_res": "Coin, gold and SDR certificates, unidentified miscellaneous assets, with the named rounding/remainder correction; locked",
+    "Q_H": "GSE, other-financial and foreign deposits plus reverse repos; assume none held by institutions inside selected bank perimeter",
+    "Q_lock": "Unidentified miscellaneous liabilities, grossed negative float and net IMF reserve position",
+    "Q_G": "Zero eligible redeemable Treasury claims beyond T; Treasury capital investment is not silently treated as a repayable deposit",
+    "currency": "C_H and C_B follow the L.109 monetary-authority presentation; separate Treasury-issued currency is outside this projected currency perimeter. T uses its complete federal checkable-deposit group, including the small Treasury-cash item. These conventions are not an exact banknote/coin ownership reconstruction."
+  },
+  "public_non_debt_inventory": "N_H=0 is a baseline for the protected stock: adding any fixed nonnegative opening stock and its preservation floor does not change the constructions or diagnostics. It is not an estimate of nonbank wealth.",
+  "correction_family": {
+    "bank": "Reduce overstated internal asset total to issuer total, or increase internal liability total to holder total, adjust source-valued net assets accordingly, then cancel equal internal claims. End consolidated positions coincide.",
+    "fed_2020": "Use equity correction r=-9796, or raise the existing unidentified asset series by 9796 while keeping reference equity. Raw sources never change. Interpolate between endpoints only within this declared family.",
+    "rounding": "Published Fed leaf/control asset difference is -1 million in each benchmark; explicitly assigned to unidentified miscellaneous assets."
+  },
+  "limits": "Accounting-admissible conditional completions under declared eligibility, valuation, bilateral-allocation and debt-perimeter choices. The correction/allocation envelope is not an error bound over all plausible economic classifications. No quarterly series or historical witness is identified.",
+  "public_population": "All actors outside the L.110 banks and Treasury/monetary-authority perimeter, including foreign banks and separately classified pension funds",
+  "monetary_authority_population": "Z.1 L.109 monetary authority, mapped to the model Fed actor; not asserted to be identical to the H.4.1 legal Federal Reserve reporting perimeter."
+}

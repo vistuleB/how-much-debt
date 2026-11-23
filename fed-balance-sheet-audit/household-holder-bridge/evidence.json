@@ -1,0 +1,3693 @@
+{
+  "bound_scope": "Individual holder/type intersections in inherited face-principal pool; not jointly independent, not a household borrower allocation, not a wealth-group allocation",
+  "format_version": 1,
+  "reports": [
+    {
+      "path": "fed-balance-sheet-audit/z1-bank-positions/row-split/check.json",
+      "sha256": "c67f88f62a6afcf6e87f98ec498e28cc514cc54076edfcc6d99fbfd74025f8f8"
+    },
+    {
+      "path": "fed-balance-sheet-audit/z1-bank-positions/extension-2009-2019/row-split/check.json",
+      "sha256": "e19e342580836f3cbaaeefbf5f0c38e06ef3f0267491dd2cf47f1c62853434e1"
+    },
+    {
+      "path": "fed-balance-sheet-audit/z1-bank-positions/extension-2000-2007/row-split/check.json",
+      "sha256": "f322b27403ccabd888d458cb5a873663b1e5bf8eb4431cdaa699e19f62b69941"
+    }
+  ],
+  "source_series": {
+    "GSE_securitized_home": {
+      "series": "FL403065195.Q",
+      "table": "l125"
+    },
+    "GSE_securitized_multifamily": {
+      "series": "FL403065495.Q",
+      "table": "l125"
+    },
+    "US_banks_direct_home_mortgages": {
+      "series": "FL763065105.Q",
+      "table": "l218"
+    },
+    "affiliated_area_banks_direct_home_mortgages": {
+      "series": "FL743065103.Q",
+      "table": "l218"
+    },
+    "bank_direct_selected_loans": {
+      "series": "FL704023005.Q",
+      "table": "l110"
+    },
+    "credit_unions_direct_home_mortgages": {
+      "series": "FL473065100.Q",
+      "table": "l218"
+    },
+    "foreign_bank_offices_direct_home_mortgages": {
+      "series": "FL753065103.Q",
+      "table": "l218"
+    },
+    "household_and_nonprofit_home_mortgages": {
+      "series": "FL153165105.Q",
+      "table": "l218"
+    },
+    "mortgage_pools_home": {
+      "series": "FL413065105.Q",
+      "table": "l126"
+    },
+    "mortgage_pools_total": {
+      "series": "FL413065005.Q",
+      "table": "l126"
+    },
+    "noncorporate_business_home_mortgages": {
+      "series": "FL113165105.Q",
+      "table": "l218"
+    },
+    "one_to_four_total": {
+      "series": "FL893065105.Q",
+      "table": "l218"
+    }
+  },
+  "source_sha256": "4a758a65a5190987a53e24039d91cc2b09ed55e57a2560bc640fdfe191ceee35",
+  "status": "Source margins and conditional one-to-four allocation bounds only; no household-wealth netting figure",
+  "units": "USD millions",
+  "years": [
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            549699,
+            632965
+          ],
+          "bank_selected_MBS": 632965,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            651803,
+            735069
+          ],
+          "bank_selected_MBS": 735069,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            688355,
+            771621
+          ],
+          "bank_selected_MBS": 771621,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            549699,
+            632965
+          ],
+          "bank_selected_MBS": 632965,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            651803,
+            735069
+          ],
+          "bank_selected_MBS": 735069,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            688355,
+            771621
+          ],
+          "bank_selected_MBS": 771621,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2001/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 1641030,
+        "affiliated_area_banks_direct_home_mortgages": 8173,
+        "bank_direct_selected_loans": 5022488,
+        "credit_unions_direct_home_mortgages": 122006,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 5311785,
+        "mortgage_pools_home": 2748518,
+        "mortgage_pools_total": 2831784,
+        "noncorporate_business_home_mortgages": 336917,
+        "one_to_four_asset_minus_named_borrower_totals": 16178,
+        "one_to_four_total": 5664880
+      },
+      "year": 2001
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            623131,
+            718037
+          ],
+          "bank_selected_MBS": 718037,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            745317,
+            840223
+          ],
+          "bank_selected_MBS": 840223,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            790862,
+            885768
+          ],
+          "bank_selected_MBS": 885768,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            623131,
+            718037
+          ],
+          "bank_selected_MBS": 718037,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            745317,
+            840223
+          ],
+          "bank_selected_MBS": 840223,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            790862,
+            885768
+          ],
+          "bank_selected_MBS": 885768,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2002/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 1849099,
+        "affiliated_area_banks_direct_home_mortgages": 9653,
+        "bank_direct_selected_loans": 5281217,
+        "credit_unions_direct_home_mortgages": 136671,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 6016313,
+        "mortgage_pools_home": 3063697,
+        "mortgage_pools_total": 3158603,
+        "noncorporate_business_home_mortgages": 386379,
+        "one_to_four_asset_minus_named_borrower_totals": 16868,
+        "one_to_four_total": 6419560
+      },
+      "year": 2002
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            675654,
+            785394
+          ],
+          "bank_selected_MBS": 785394,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            803217,
+            912957
+          ],
+          "bank_selected_MBS": 912957,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            853871,
+            963611
+          ],
+          "bank_selected_MBS": 963611,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            675654,
+            785394
+          ],
+          "bank_selected_MBS": 785394,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            803217,
+            912957
+          ],
+          "bank_selected_MBS": 912957,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            853871,
+            963611
+          ],
+          "bank_selected_MBS": 963611,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2003/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2050966,
+        "affiliated_area_banks_direct_home_mortgages": 12176,
+        "bank_direct_selected_loans": 5649218,
+        "credit_unions_direct_home_mortgages": 152585,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 6895613,
+        "mortgage_pools_home": 3233511,
+        "mortgage_pools_total": 3343251,
+        "noncorporate_business_home_mortgages": 326650,
+        "one_to_four_asset_minus_named_borrower_totals": 18801,
+        "one_to_four_total": 7241064
+      },
+      "year": 2003
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            734516,
+            841188
+          ],
+          "bank_selected_MBS": 841188,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            868974,
+            975646
+          ],
+          "bank_selected_MBS": 975646,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            913207,
+            1019879
+          ],
+          "bank_selected_MBS": 1019879,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            734516,
+            841188
+          ],
+          "bank_selected_MBS": 841188,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            868974,
+            975646
+          ],
+          "bank_selected_MBS": 975646,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            913207,
+            1019879
+          ],
+          "bank_selected_MBS": 1019879,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2004/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2440830,
+        "affiliated_area_banks_direct_home_mortgages": 15565,
+        "bank_direct_selected_loans": 6310300,
+        "credit_unions_direct_home_mortgages": 175843,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 7840578,
+        "mortgage_pools_home": 3277346,
+        "mortgage_pools_total": 3384018,
+        "noncorporate_business_home_mortgages": 409418,
+        "one_to_four_asset_minus_named_borrower_totals": 23496,
+        "one_to_four_total": 8273492
+      },
+      "year": 2004
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            770456,
+            872582
+          ],
+          "bank_selected_MBS": 872582,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            898527,
+            1000653
+          ],
+          "bank_selected_MBS": 1000653,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            943310,
+            1045436
+          ],
+          "bank_selected_MBS": 1045436,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            770456,
+            872582
+          ],
+          "bank_selected_MBS": 872582,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            898527,
+            1000653
+          ],
+          "bank_selected_MBS": 1000653,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            943310,
+            1045436
+          ],
+          "bank_selected_MBS": 1045436,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2005/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2730186,
+        "affiliated_area_banks_direct_home_mortgages": 16314,
+        "bank_direct_selected_loans": 6997295,
+        "credit_unions_direct_home_mortgages": 200407,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 8902867,
+        "mortgage_pools_home": 3446357,
+        "mortgage_pools_total": 3548483,
+        "noncorporate_business_home_mortgages": 476981,
+        "one_to_four_asset_minus_named_borrower_totals": 31127,
+        "one_to_four_total": 9410975
+      },
+      "year": 2005
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            846629,
+            938628
+          ],
+          "bank_selected_MBS": 938628,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            969818,
+            1061817
+          ],
+          "bank_selected_MBS": 1061817,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1008555,
+            1100554
+          ],
+          "bank_selected_MBS": 1100554,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            846629,
+            938628
+          ],
+          "bank_selected_MBS": 938628,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            969818,
+            1061817
+          ],
+          "bank_selected_MBS": 1061817,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1008555,
+            1100554
+          ],
+          "bank_selected_MBS": 1100554,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2006/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2933474,
+        "affiliated_area_banks_direct_home_mortgages": 17236,
+        "bank_direct_selected_loans": 7617334,
+        "credit_unions_direct_home_mortgages": 224297,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 9899344,
+        "mortgage_pools_home": 3749120,
+        "mortgage_pools_total": 3841119,
+        "noncorporate_business_home_mortgages": 551160,
+        "one_to_four_asset_minus_named_borrower_totals": 39358,
+        "one_to_four_total": 10489862
+      },
+      "year": 2006
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            770334,
+            862993
+          ],
+          "bank_selected_MBS": 862993,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            890643,
+            983302
+          ],
+          "bank_selected_MBS": 983302,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            923115,
+            1015774
+          ],
+          "bank_selected_MBS": 1015774,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            770334,
+            862993
+          ],
+          "bank_selected_MBS": 862993,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            890643,
+            983302
+          ],
+          "bank_selected_MBS": 983302,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            923115,
+            1015774
+          ],
+          "bank_selected_MBS": 1015774,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2007/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 3068927,
+        "affiliated_area_banks_direct_home_mortgages": 21522,
+        "bank_direct_selected_loans": 8285158,
+        "credit_unions_direct_home_mortgages": 249155,
+        "foreign_bank_offices_direct_home_mortgages": 0,
+        "household_and_nonprofit_home_mortgages": 10577134,
+        "mortgage_pools_home": 4371759,
+        "mortgage_pools_total": 4464418,
+        "noncorporate_business_home_mortgages": 585088,
+        "one_to_four_asset_minus_named_borrower_totals": 42229,
+        "one_to_four_total": 11204451
+      },
+      "year": 2007
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            915528,
+            1012966
+          ],
+          "bank_selected_MBS": 1012966,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1047021,
+            1144459
+          ],
+          "bank_selected_MBS": 1144459,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1071886,
+            1169324
+          ],
+          "bank_selected_MBS": 1169324,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            915528,
+            1012966
+          ],
+          "bank_selected_MBS": 1012966,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1047021,
+            1144459
+          ],
+          "bank_selected_MBS": 1144459,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1071886,
+            1169324
+          ],
+          "bank_selected_MBS": 1169324,
+          "fed_one_to_four_capacity_bound": [
+            0,
+            0
+          ],
+          "fed_selected_MBS": 0,
+          "id": "2008/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2887388,
+        "affiliated_area_banks_direct_home_mortgages": 22901,
+        "bank_direct_selected_loans": 8557754,
+        "credit_unions_direct_home_mortgages": 278541,
+        "foreign_bank_offices_direct_home_mortgages": 6968,
+        "household_and_nonprofit_home_mortgages": 10540066,
+        "mortgage_pools_home": 4863990,
+        "mortgage_pools_total": 4961428,
+        "noncorporate_business_home_mortgages": 540943,
+        "one_to_four_asset_minus_named_borrower_totals": 32717,
+        "one_to_four_total": 11113726
+      },
+      "year": 2008
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            976309,
+            1086518
+          ],
+          "bank_selected_MBS": 1086518,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            976309,
+            1086518
+          ],
+          "bank_selected_MBS": 1086518,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1103691,
+            1213900
+          ],
+          "bank_selected_MBS": 1213900,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1103691,
+            1213900
+          ],
+          "bank_selected_MBS": 1213900,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1139109,
+            1249318
+          ],
+          "bank_selected_MBS": 1249318,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1139109,
+            1249318
+          ],
+          "bank_selected_MBS": 1249318,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/holder_correction/source_net_assets/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            976309,
+            1086518
+          ],
+          "bank_selected_MBS": 1086518,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            976309,
+            1086518
+          ],
+          "bank_selected_MBS": 1086518,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1103691,
+            1213900
+          ],
+          "bank_selected_MBS": 1213900,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1103691,
+            1213900
+          ],
+          "bank_selected_MBS": 1213900,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1139109,
+            1249318
+          ],
+          "bank_selected_MBS": 1249318,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1139109,
+            1249318
+          ],
+          "bank_selected_MBS": 1249318,
+          "fed_one_to_four_capacity_bound": [
+            779705,
+            889914
+          ],
+          "fed_selected_MBS": 889914,
+          "id": "2009/issuer_correction/source_net_assets/maximum/agency_lookthrough/locked_contra_asset"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 0,
+        "GSE_securitized_multifamily": 0,
+        "US_banks_direct_home_mortgages": 2700616,
+        "affiliated_area_banks_direct_home_mortgages": 22619,
+        "bank_direct_selected_loans": 7854760,
+        "credit_unions_direct_home_mortgages": 282863,
+        "foreign_bank_offices_direct_home_mortgages": 920,
+        "household_and_nonprofit_home_mortgages": 10406753,
+        "mortgage_pools_home": 5266500,
+        "mortgage_pools_total": 5376709,
+        "noncorporate_business_home_mortgages": 499408,
+        "one_to_four_asset_minus_named_borrower_totals": 20326,
+        "one_to_four_total": 10926487
+      },
+      "year": 2009
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1053370,
+            1200613
+          ],
+          "bank_selected_MBS": 1200613,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1202777,
+            1350020
+          ],
+          "bank_selected_MBS": 1350020,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1238019,
+            1385262
+          ],
+          "bank_selected_MBS": 1385262,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1053370,
+            1200613
+          ],
+          "bank_selected_MBS": 1200613,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1202777,
+            1350020
+          ],
+          "bank_selected_MBS": 1350020,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1238019,
+            1385262
+          ],
+          "bank_selected_MBS": 1385262,
+          "fed_one_to_four_capacity_bound": [
+            816705,
+            963948
+          ],
+          "fed_selected_MBS": 963948,
+          "id": "2010/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4141016,
+        "GSE_securitized_multifamily": 75393,
+        "US_banks_direct_home_mortgages": 2618295,
+        "affiliated_area_banks_direct_home_mortgages": 20124,
+        "bank_direct_selected_loans": 7936970,
+        "credit_unions_direct_home_mortgages": 282792,
+        "foreign_bank_offices_direct_home_mortgages": 1069,
+        "household_and_nonprofit_home_mortgages": 9957898,
+        "mortgage_pools_home": 1074964,
+        "mortgage_pools_total": 1146814,
+        "noncorporate_business_home_mortgages": 517587,
+        "one_to_four_asset_minus_named_borrower_totals": 13560,
+        "one_to_four_total": 10489045
+      },
+      "year": 2010
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1143475,
+            1332329
+          ],
+          "bank_selected_MBS": 1332329,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1319865,
+            1508719
+          ],
+          "bank_selected_MBS": 1508719,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1350179,
+            1539033
+          ],
+          "bank_selected_MBS": 1539033,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1143475,
+            1332329
+          ],
+          "bank_selected_MBS": 1332329,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1319865,
+            1508719
+          ],
+          "bank_selected_MBS": 1508719,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1350179,
+            1539033
+          ],
+          "bank_selected_MBS": 1539033,
+          "fed_one_to_four_capacity_bound": [
+            611504,
+            800358
+          ],
+          "fed_selected_MBS": 800358,
+          "id": "2011/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4032089,
+        "GSE_securitized_multifamily": 99872,
+        "US_banks_direct_home_mortgages": 2538827,
+        "affiliated_area_banks_direct_home_mortgages": 17766,
+        "bank_direct_selected_loans": 8014364,
+        "credit_unions_direct_home_mortgages": 285257,
+        "foreign_bank_offices_direct_home_mortgages": 1319,
+        "household_and_nonprofit_home_mortgages": 9754939,
+        "mortgage_pools_home": 1222902,
+        "mortgage_pools_total": 1311884,
+        "noncorporate_business_home_mortgages": 485600,
+        "one_to_four_asset_minus_named_borrower_totals": 10196,
+        "one_to_four_total": 10250735
+      },
+      "year": 2011
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1145398,
+            1388945
+          ],
+          "bank_selected_MBS": 1388945,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1330588,
+            1574135
+          ],
+          "bank_selected_MBS": 1574135,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1360689,
+            1604236
+          ],
+          "bank_selected_MBS": 1604236,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1145398,
+            1388945
+          ],
+          "bank_selected_MBS": 1388945,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1330588,
+            1574135
+          ],
+          "bank_selected_MBS": 1574135,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1360689,
+            1604236
+          ],
+          "bank_selected_MBS": 1604236,
+          "fed_one_to_four_capacity_bound": [
+            685854,
+            929401
+          ],
+          "fed_selected_MBS": 929401,
+          "id": "2012/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 3958029,
+        "GSE_securitized_multifamily": 127401,
+        "US_banks_direct_home_mortgages": 2501988,
+        "affiliated_area_banks_direct_home_mortgages": 19790,
+        "bank_direct_selected_loans": 8270504,
+        "credit_unions_direct_home_mortgages": 291790,
+        "foreign_bank_offices_direct_home_mortgages": 1804,
+        "household_and_nonprofit_home_mortgages": 9506994,
+        "mortgage_pools_home": 1326581,
+        "mortgage_pools_total": 1442727,
+        "noncorporate_business_home_mortgages": 500947,
+        "one_to_four_asset_minus_named_borrower_totals": 9706,
+        "one_to_four_total": 10017647
+      },
+      "year": 2012
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1151682,
+            1447517
+          ],
+          "bank_selected_MBS": 1447517,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1342130,
+            1637965
+          ],
+          "bank_selected_MBS": 1637965,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1372280,
+            1668115
+          ],
+          "bank_selected_MBS": 1668115,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1151682,
+            1447517
+          ],
+          "bank_selected_MBS": 1447517,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1342130,
+            1637965
+          ],
+          "bank_selected_MBS": 1637965,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1372280,
+            1668115
+          ],
+          "bank_selected_MBS": 1668115,
+          "fed_one_to_four_capacity_bound": [
+            1165324,
+            1461159
+          ],
+          "fed_selected_MBS": 1461159,
+          "id": "2013/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4087746,
+        "GSE_securitized_multifamily": 146258,
+        "US_banks_direct_home_mortgages": 2385878,
+        "affiliated_area_banks_direct_home_mortgages": 18723,
+        "bank_direct_selected_loans": 8498669,
+        "credit_unions_direct_home_mortgages": 308193,
+        "foreign_bank_offices_direct_home_mortgages": 1285,
+        "household_and_nonprofit_home_mortgages": 9395044,
+        "mortgage_pools_home": 1423935,
+        "mortgage_pools_total": 1573512,
+        "noncorporate_business_home_mortgages": 512611,
+        "one_to_four_asset_minus_named_borrower_totals": 9960,
+        "one_to_four_total": 9917615
+      },
+      "year": 2013
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1153346,
+            1491658
+          ],
+          "bank_selected_MBS": 1491658,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1327900,
+            1666212
+          ],
+          "bank_selected_MBS": 1666212,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1351865,
+            1690177
+          ],
+          "bank_selected_MBS": 1690177,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1153346,
+            1491658
+          ],
+          "bank_selected_MBS": 1491658,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1327900,
+            1666212
+          ],
+          "bank_selected_MBS": 1666212,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1351865,
+            1690177
+          ],
+          "bank_selected_MBS": 1690177,
+          "fed_one_to_four_capacity_bound": [
+            1393125,
+            1731437
+          ],
+          "fed_selected_MBS": 1731437,
+          "id": "2014/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4104240,
+        "GSE_securitized_multifamily": 164569,
+        "US_banks_direct_home_mortgages": 2390616,
+        "affiliated_area_banks_direct_home_mortgages": 17288,
+        "bank_direct_selected_loans": 9079618,
+        "credit_unions_direct_home_mortgages": 330058,
+        "foreign_bank_offices_direct_home_mortgages": 2885,
+        "household_and_nonprofit_home_mortgages": 9341508,
+        "mortgage_pools_home": 1474761,
+        "mortgage_pools_total": 1648504,
+        "noncorporate_business_home_mortgages": 537869,
+        "one_to_four_asset_minus_named_borrower_totals": 11491,
+        "one_to_four_total": 9890868
+      },
+      "year": 2014
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1265911,
+            1659481
+          ],
+          "bank_selected_MBS": 1659481,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1438632,
+            1832202
+          ],
+          "bank_selected_MBS": 1832202,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1458204,
+            1851774
+          ],
+          "bank_selected_MBS": 1851774,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1265911,
+            1659481
+          ],
+          "bank_selected_MBS": 1659481,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1438632,
+            1832202
+          ],
+          "bank_selected_MBS": 1832202,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1458204,
+            1851774
+          ],
+          "bank_selected_MBS": 1851774,
+          "fed_one_to_four_capacity_bound": [
+            1351164,
+            1744734
+          ],
+          "fed_selected_MBS": 1744734,
+          "id": "2015/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4171764,
+        "GSE_securitized_multifamily": 186954,
+        "US_banks_direct_home_mortgages": 2433592,
+        "affiliated_area_banks_direct_home_mortgages": 15665,
+        "bank_direct_selected_loans": 9766521,
+        "credit_unions_direct_home_mortgages": 358386,
+        "foreign_bank_offices_direct_home_mortgages": 1526,
+        "household_and_nonprofit_home_mortgages": 9435806,
+        "mortgage_pools_home": 1568836,
+        "mortgage_pools_total": 1775452,
+        "noncorporate_business_home_mortgages": 570067,
+        "one_to_four_asset_minus_named_borrower_totals": 13440,
+        "one_to_four_total": 10019313
+      },
+      "year": 2015
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1362097,
+            1833971
+          ],
+          "bank_selected_MBS": 1833971,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1535839,
+            2007713
+          ],
+          "bank_selected_MBS": 2007713,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1550729,
+            2022603
+          ],
+          "bank_selected_MBS": 2022603,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1362097,
+            1833971
+          ],
+          "bank_selected_MBS": 1833971,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1535839,
+            2007713
+          ],
+          "bank_selected_MBS": 2007713,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1550729,
+            2022603
+          ],
+          "bank_selected_MBS": 2022603,
+          "fed_one_to_four_capacity_bound": [
+            1267515,
+            1739389
+          ],
+          "fed_selected_MBS": 1739389,
+          "id": "2016/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4284173,
+        "GSE_securitized_multifamily": 223565,
+        "US_banks_direct_home_mortgages": 2510000,
+        "affiliated_area_banks_direct_home_mortgages": 14968,
+        "bank_direct_selected_loans": 10377544,
+        "credit_unions_direct_home_mortgages": 386211,
+        "foreign_bank_offices_direct_home_mortgages": 1172,
+        "household_and_nonprofit_home_mortgages": 9591930,
+        "mortgage_pools_home": 1684649,
+        "mortgage_pools_total": 1932958,
+        "noncorporate_business_home_mortgages": 604834,
+        "one_to_four_asset_minus_named_borrower_totals": 15188,
+        "one_to_four_total": 10211952
+      },
+      "year": 2016
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1415477,
+            1980497
+          ],
+          "bank_selected_MBS": 1980497,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1608851,
+            2173871
+          ],
+          "bank_selected_MBS": 2173871,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1623872,
+            2188892
+          ],
+          "bank_selected_MBS": 2188892,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1415477,
+            1980497
+          ],
+          "bank_selected_MBS": 1980497,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1608851,
+            2173871
+          ],
+          "bank_selected_MBS": 2173871,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1623872,
+            2188892
+          ],
+          "bank_selected_MBS": 2188892,
+          "fed_one_to_four_capacity_bound": [
+            1194498,
+            1759518
+          ],
+          "fed_selected_MBS": 1759518,
+          "id": "2017/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4461838,
+        "GSE_securitized_multifamily": 264245,
+        "US_banks_direct_home_mortgages": 2556959,
+        "affiliated_area_banks_direct_home_mortgages": 15277,
+        "bank_direct_selected_loans": 10830162,
+        "credit_unions_direct_home_mortgages": 421962,
+        "foreign_bank_offices_direct_home_mortgages": 1064,
+        "household_and_nonprofit_home_mortgages": 9852345,
+        "mortgage_pools_home": 1825684,
+        "mortgage_pools_total": 2126459,
+        "noncorporate_business_home_mortgages": 651008,
+        "one_to_four_asset_minus_named_borrower_totals": 16125,
+        "one_to_four_total": 10519478
+      },
+      "year": 2017
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1421431,
+            2060318
+          ],
+          "bank_selected_MBS": 2060318,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1615032,
+            2253919
+          ],
+          "bank_selected_MBS": 2253919,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1628891,
+            2267778
+          ],
+          "bank_selected_MBS": 2267778,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1421431,
+            2060318
+          ],
+          "bank_selected_MBS": 2060318,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1615032,
+            2253919
+          ],
+          "bank_selected_MBS": 2253919,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1628891,
+            2267778
+          ],
+          "bank_selected_MBS": 2267778,
+          "fed_one_to_four_capacity_bound": [
+            979438,
+            1618325
+          ],
+          "fed_selected_MBS": 1618325,
+          "id": "2018/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4620804,
+        "GSE_securitized_multifamily": 295328,
+        "US_banks_direct_home_mortgages": 2585948,
+        "affiliated_area_banks_direct_home_mortgages": 14079,
+        "bank_direct_selected_loans": 11389422,
+        "credit_unions_direct_home_mortgages": 455364,
+        "foreign_bank_offices_direct_home_mortgages": 1606,
+        "household_and_nonprofit_home_mortgages": 10121618,
+        "mortgage_pools_home": 1948715,
+        "mortgage_pools_total": 2292274,
+        "noncorporate_business_home_mortgages": 676254,
+        "one_to_four_asset_minus_named_borrower_totals": 17079,
+        "one_to_four_total": 10814951
+      },
+      "year": 2018
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1465384,
+            2179335
+          ],
+          "bank_selected_MBS": 2179335,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/holder_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1669215,
+            2383166
+          ],
+          "bank_selected_MBS": 2383166,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/holder_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1680000,
+            2393951
+          ],
+          "bank_selected_MBS": 2393951,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/holder_correction/source_net_assets/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1465384,
+            2179335
+          ],
+          "bank_selected_MBS": 2179335,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1669215,
+            2383166
+          ],
+          "bank_selected_MBS": 2383166,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/issuer_correction/source_net_assets/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1680000,
+            2393951
+          ],
+          "bank_selected_MBS": 2393951,
+          "fed_one_to_four_capacity_bound": [
+            684625,
+            1398576
+          ],
+          "fed_selected_MBS": 1398576,
+          "id": "2019/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 4771942,
+        "GSE_securitized_multifamily": 332667,
+        "US_banks_direct_home_mortgages": 2638230,
+        "affiliated_area_banks_direct_home_mortgages": 13156,
+        "bank_direct_selected_loans": 11847312,
+        "credit_unions_direct_home_mortgages": 488657,
+        "foreign_bank_offices_direct_home_mortgages": 1452,
+        "household_and_nonprofit_home_mortgages": 10391320,
+        "mortgage_pools_home": 2024759,
+        "mortgage_pools_total": 2406043,
+        "noncorporate_business_home_mortgages": 686852,
+        "one_to_four_asset_minus_named_borrower_totals": 17242,
+        "one_to_four_total": 11095414
+      },
+      "year": 2019
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1964030,
+            2767974
+          ],
+          "bank_selected_MBS": 2767974,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2247270,
+            3051214
+          ],
+          "bank_selected_MBS": 3051214,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2259753,
+            3063697
+          ],
+          "bank_selected_MBS": 3063697,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1964030,
+            2767974
+          ],
+          "bank_selected_MBS": 2767974,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2247270,
+            3051214
+          ],
+          "bank_selected_MBS": 3051214,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2259753,
+            3063697
+          ],
+          "bank_selected_MBS": 3063697,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1964030,
+            2767974
+          ],
+          "bank_selected_MBS": 2767974,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2247270,
+            3051214
+          ],
+          "bank_selected_MBS": 3051214,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2259753,
+            3063697
+          ],
+          "bank_selected_MBS": 3063697,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1964030,
+            2767974
+          ],
+          "bank_selected_MBS": 2767974,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2247270,
+            3051214
+          ],
+          "bank_selected_MBS": 3051214,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2259753,
+            3063697
+          ],
+          "bank_selected_MBS": 3063697,
+          "fed_one_to_four_capacity_bound": [
+            1239220,
+            2043164
+          ],
+          "fed_selected_MBS": 2043164,
+          "id": "2020/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 5303756,
+        "GSE_securitized_multifamily": 384572,
+        "US_banks_direct_home_mortgages": 2581469,
+        "affiliated_area_banks_direct_home_mortgages": 13475,
+        "bank_direct_selected_loans": 12228899,
+        "credit_unions_direct_home_mortgages": 518757,
+        "foreign_bank_offices_direct_home_mortgages": 1237,
+        "household_and_nonprofit_home_mortgages": 10783195,
+        "mortgage_pools_home": 2008954,
+        "mortgage_pools_total": 2428326,
+        "noncorporate_business_home_mortgages": 771817,
+        "one_to_four_asset_minus_named_borrower_totals": 16747,
+        "one_to_four_total": 11571759
+      },
+      "year": 2020
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            2355594,
+            3234058
+          ],
+          "bank_selected_MBS": 3234058,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2702567,
+            3581031
+          ],
+          "bank_selected_MBS": 3581031,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2719967,
+            3598431
+          ],
+          "bank_selected_MBS": 3598431,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2355594,
+            3234058
+          ],
+          "bank_selected_MBS": 3234058,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2702567,
+            3581031
+          ],
+          "bank_selected_MBS": 3581031,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2719967,
+            3598431
+          ],
+          "bank_selected_MBS": 3598431,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2355594,
+            3234058
+          ],
+          "bank_selected_MBS": 3234058,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2702567,
+            3581031
+          ],
+          "bank_selected_MBS": 3581031,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2719967,
+            3598431
+          ],
+          "bank_selected_MBS": 3598431,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2355594,
+            3234058
+          ],
+          "bank_selected_MBS": 3234058,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2702567,
+            3581031
+          ],
+          "bank_selected_MBS": 3581031,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2719967,
+            3598431
+          ],
+          "bank_selected_MBS": 3598431,
+          "fed_one_to_four_capacity_bound": [
+            1715864,
+            2594328
+          ],
+          "fed_selected_MBS": 2594328,
+          "id": "2021/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 6136097,
+        "GSE_securitized_multifamily": 421033,
+        "US_banks_direct_home_mortgages": 2606196,
+        "affiliated_area_banks_direct_home_mortgages": 11968,
+        "bank_direct_selected_loans": 12740115,
+        "credit_unions_direct_home_mortgages": 558620,
+        "foreign_bank_offices_direct_home_mortgages": 1212,
+        "household_and_nonprofit_home_mortgages": 11814490,
+        "mortgage_pools_home": 2044381,
+        "mortgage_pools_total": 2501812,
+        "noncorporate_business_home_mortgages": 841753,
+        "one_to_four_asset_minus_named_borrower_totals": 18819,
+        "one_to_four_total": 12675062
+      },
+      "year": 2021
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2038139,
+            2964621
+          ],
+          "bank_selected_MBS": 2964621,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2388720,
+            3315202
+          ],
+          "bank_selected_MBS": 3315202,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2410806,
+            3337288
+          ],
+          "bank_selected_MBS": 3337288,
+          "fed_one_to_four_capacity_bound": [
+            1585319,
+            2511801
+          ],
+          "fed_selected_MBS": 2511801,
+          "id": "2022/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 6497725,
+        "GSE_securitized_multifamily": 461179,
+        "US_banks_direct_home_mortgages": 2852714,
+        "affiliated_area_banks_direct_home_mortgages": 11412,
+        "bank_direct_selected_loans": 14169366,
+        "credit_unions_direct_home_mortgages": 667298,
+        "foreign_bank_offices_direct_home_mortgages": 923,
+        "household_and_nonprofit_home_mortgages": 12654093,
+        "mortgage_pools_home": 2222635,
+        "mortgage_pools_total": 2687938,
+        "noncorporate_business_home_mortgages": 911689,
+        "one_to_four_asset_minus_named_borrower_totals": 22132,
+        "one_to_four_total": 13587914
+      },
+      "year": 2022
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1852893,
+            2833348
+          ],
+          "bank_selected_MBS": 2833348,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2169964,
+            3150419
+          ],
+          "bank_selected_MBS": 3150419,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2188424,
+            3168879
+          ],
+          "bank_selected_MBS": 3168879,
+          "fed_one_to_four_capacity_bound": [
+            1302067,
+            2282522
+          ],
+          "fed_selected_MBS": 2282522,
+          "id": "2023/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 6555268,
+        "GSE_securitized_multifamily": 506485,
+        "US_banks_direct_home_mortgages": 2930430,
+        "affiliated_area_banks_direct_home_mortgages": 11723,
+        "bank_direct_selected_loans": 14590683,
+        "credit_unions_direct_home_mortgages": 716060,
+        "foreign_bank_offices_direct_home_mortgages": 660,
+        "household_and_nonprofit_home_mortgages": 13017058,
+        "mortgage_pools_home": 2396711,
+        "mortgage_pools_total": 2870681,
+        "noncorporate_business_home_mortgages": 932834,
+        "one_to_four_asset_minus_named_borrower_totals": 20620,
+        "one_to_four_total": 13970512
+      },
+      "year": 2023
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1803547,
+            2837232
+          ],
+          "bank_selected_MBS": 2837232,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2125805,
+            3159490
+          ],
+          "bank_selected_MBS": 3159490,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2142531,
+            3176216
+          ],
+          "bank_selected_MBS": 3176216,
+          "fed_one_to_four_capacity_bound": [
+            993235,
+            2026920
+          ],
+          "fed_selected_MBS": 2026920,
+          "id": "2024/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 6592381,
+        "GSE_securitized_multifamily": 558346,
+        "US_banks_direct_home_mortgages": 2968701,
+        "affiliated_area_banks_direct_home_mortgages": 12189,
+        "bank_direct_selected_loans": 14985111,
+        "credit_unions_direct_home_mortgages": 756725,
+        "foreign_bank_offices_direct_home_mortgages": 948,
+        "household_and_nonprofit_home_mortgages": 13381166,
+        "mortgage_pools_home": 2569248,
+        "mortgage_pools_total": 3044587,
+        "noncorporate_business_home_mortgages": 958873,
+        "one_to_four_asset_minus_named_borrower_totals": 19154,
+        "one_to_four_total": 14359193
+      },
+      "year": 2024
+    },
+    {
+      "projections": [
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/minimum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            1766537,
+            2871097
+          ],
+          "bank_selected_MBS": 2871097,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2108068,
+            3212628
+          ],
+          "bank_selected_MBS": 3212628,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/observed_us_mix/agency_lookthrough/locked_contra_asset"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/maximum/agency_lookthrough"
+        },
+        {
+          "bank_one_to_four_capacity_bound": [
+            2122807,
+            3227367
+          ],
+          "bank_selected_MBS": 3227367,
+          "fed_one_to_four_capacity_bound": [
+            750967,
+            1855527
+          ],
+          "fed_selected_MBS": 1855527,
+          "id": "2025/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+        }
+      ],
+      "source_values": {
+        "GSE_securitized_home": 6578277,
+        "GSE_securitized_multifamily": 636964,
+        "US_banks_direct_home_mortgages": 3024232,
+        "affiliated_area_banks_direct_home_mortgages": 12631,
+        "bank_direct_selected_loans": 15865728,
+        "credit_unions_direct_home_mortgages": 809897,
+        "foreign_bank_offices_direct_home_mortgages": 1107,
+        "household_and_nonprofit_home_mortgages": 13767145,
+        "mortgage_pools_home": 2742282,
+        "mortgage_pools_total": 3209878,
+        "noncorporate_business_home_mortgages": 983426,
+        "one_to_four_asset_minus_named_borrower_totals": 19487,
+        "one_to_four_total": 14770058
+      },
+      "year": 2025
+    }
+  ]
+}

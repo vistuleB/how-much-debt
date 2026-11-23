@@ -1,0 +1,922 @@
+{
+  "scope": "All stored source completions; agency look-through, nonbank foreign issuers, separate sectors, debt securities not cancellable. Kept and payout kernels coincide here.",
+  "source_sha256": {
+    "broad-debt-model/corrected-results.json": "e07c43b903d4a7e8037c314b73096ac7455e9d3591e8288f4eb348416a76b6f5",
+    "broad-debt-model/equity-kept-results.json": "899da733c8ff4742a50f216eafb6af2f665531ede0b8bb253291be7273378c6c",
+    "fed-balance-sheet-audit/z1-bank-positions/extension-2000-2007/broad-debt/results.json": "a8dce019cd27bce4e8e971888dd8c0aba438af08cb5b1e3025dbf4b85747328c",
+    "fed-balance-sheet-audit/z1-bank-positions/extension-2009-2019/broad-debt/results.json": "f3474638594011d48006bed9ce6e2bc34a0012919b625b535b6e36d103ed0e61"
+  },
+  "unit": "USD trillions for levels; percent for retirement",
+  "years": [
+    {
+      "completions": 6,
+      "debt": 27.222997,
+      "first_completion": {
+        "id": "2001/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 19.055352,
+        "ratio": 1.331841996064027,
+        "retirement_pct": 30.002739962833623
+      },
+      "first_is_minimum": true,
+      "kernel": 14.307517,
+      "maximum_ids": [
+        "2001/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2001/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2001/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2001/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        19.055352,
+        19.176535
+      ],
+      "ratio": [
+        1.331841996064027,
+        1.340311879412759
+      ],
+      "repayable_netting": 10.347638,
+      "retirement_pct": [
+        29.557590591513495,
+        30.002739962833623
+      ],
+      "year": 2001
+    },
+    {
+      "completions": 6,
+      "debt": 29.375158,
+      "first_completion": {
+        "id": "2002/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 20.662093,
+        "ratio": 1.3263653567407327,
+        "retirement_pct": 29.661338332205734
+      },
+      "first_is_minimum": true,
+      "kernel": 15.57798,
+      "maximum_ids": [
+        "2002/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2002/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2002/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2002/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        20.662093,
+        20.805717
+      ],
+      "ratio": [
+        1.3263653567407327,
+        1.33558503734117
+      ],
+      "repayable_netting": 11.14795,
+      "retirement_pct": [
+        29.172408196068254,
+        29.661338332205734
+      ],
+      "year": 2002
+    },
+    {
+      "completions": 6,
+      "debt": 32.159576,
+      "first_completion": {
+        "id": "2003/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 22.655106,
+        "ratio": 1.3208509470261665,
+        "retirement_pct": 29.554089892229918
+      },
+      "first_is_minimum": true,
+      "kernel": 17.151902,
+      "maximum_ids": [
+        "2003/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2003/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2003/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2003/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        22.655106,
+        22.808403
+      ],
+      "ratio": [
+        1.3208509470261665,
+        1.3297885563945036
+      ],
+      "repayable_netting": 12.119419,
+      "retirement_pct": [
+        29.077413831575395,
+        29.554089892229918
+      ],
+      "year": 2003
+    },
+    {
+      "completions": 6,
+      "debt": 36.158567,
+      "first_completion": {
+        "id": "2004/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 25.639022,
+        "ratio": 1.3173149466693164,
+        "retirement_pct": 29.092814989045333
+      },
+      "first_is_minimum": true,
+      "kernel": 19.463092,
+      "maximum_ids": [
+        "2004/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2004/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2004/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2004/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        25.639022,
+        25.78597
+      ],
+      "ratio": [
+        1.3173149466693164,
+        1.324865031722606
+      ],
+      "repayable_netting": 13.47384,
+      "retirement_pct": [
+        28.686416140329897,
+        29.092814989045333
+      ],
+      "year": 2004
+    },
+    {
+      "completions": 6,
+      "debt": 39.128674,
+      "first_completion": {
+        "id": "2005/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 27.543088,
+        "ratio": 1.3336385089540106,
+        "retirement_pct": 29.608941003214163
+      },
+      "first_is_minimum": true,
+      "kernel": 20.652589,
+      "maximum_ids": [
+        "2005/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2005/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2005/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2005/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        27.543088,
+        27.680038
+      ],
+      "ratio": [
+        1.3336385089540106,
+        1.340269638833175
+      ],
+      "repayable_netting": 14.914805,
+      "retirement_pct": [
+        29.2589419206999,
+        29.608941003214163
+      ],
+      "year": 2005
+    },
+    {
+      "completions": 6,
+      "debt": 42.942738,
+      "first_completion": {
+        "id": "2006/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 30.038511,
+        "ratio": 1.3409263555221071,
+        "retirement_pct": 30.049846844884463
+      },
+      "first_is_minimum": true,
+      "kernel": 22.401313,
+      "maximum_ids": [
+        "2006/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2006/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2006/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2006/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        30.038511,
+        30.159921
+      ],
+      "ratio": [
+        1.3409263555221071,
+        1.3463461271221022
+      ],
+      "repayable_netting": 16.406299,
+      "retirement_pct": [
+        29.767121509578644,
+        30.049846844884463
+      ],
+      "year": 2006
+    },
+    {
+      "completions": 6,
+      "debt": 46.76854,
+      "first_completion": {
+        "id": "2007/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 32.336451,
+        "ratio": 1.3418498696096655,
+        "retirement_pct": 30.858540805421764
+      },
+      "first_is_minimum": true,
+      "kernel": 24.098412,
+      "maximum_ids": [
+        "2007/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2007/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2007/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2007/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        32.336451,
+        32.450421
+      ],
+      "ratio": [
+        1.3418498696096655,
+        1.3465792268801777
+      ],
+      "repayable_netting": 17.644794,
+      "retirement_pct": [
+        30.614851350929495,
+        30.858540805421764
+      ],
+      "year": 2007
+    },
+    {
+      "completions": 6,
+      "debt": 47.269649,
+      "first_completion": {
+        "id": "2008/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 32.960198,
+        "ratio": 1.4000382714473552,
+        "retirement_pct": 30.271963728776573
+      },
+      "first_is_minimum": true,
+      "kernel": 23.542355,
+      "maximum_ids": [
+        "2008/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2008/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2008/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2008/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        32.960198,
+        33.084994
+      ],
+      "ratio": [
+        1.4000382714473552,
+        1.4053391854808068
+      ],
+      "repayable_netting": 19.521263,
+      "retirement_pct": [
+        30.00795499877733,
+        30.271963728776573
+      ],
+      "year": 2008
+    },
+    {
+      "completions": 12,
+      "debt": 47.626211,
+      "first_completion": {
+        "id": "2009/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 34.838419,
+        "ratio": 1.3746554278093024,
+        "retirement_pct": 26.850324078898492
+      },
+      "first_is_minimum": true,
+      "kernel": 25.343383,
+      "maximum_ids": [
+        "2009/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2009/holder_correction/source_net_assets/maximum/agency_lookthrough/locked_contra_asset",
+        "2009/issuer_correction/source_net_assets/maximum/agency_lookthrough",
+        "2009/issuer_correction/source_net_assets/maximum/agency_lookthrough/locked_contra_asset"
+      ],
+      "minimum_ids": [
+        "2009/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2009/holder_correction/source_net_assets/minimum/agency_lookthrough/locked_contra_asset",
+        "2009/issuer_correction/source_net_assets/minimum/agency_lookthrough",
+        "2009/issuer_correction/source_net_assets/minimum/agency_lookthrough/locked_contra_asset"
+      ],
+      "netting": [
+        34.838419,
+        34.966719
+      ],
+      "ratio": [
+        1.3746554278093024,
+        1.379717893226804
+      ],
+      "repayable_netting": 20.641273,
+      "retirement_pct": [
+        26.580934603426677,
+        26.850324078898492
+      ],
+      "year": 2009
+    },
+    {
+      "completions": 6,
+      "debt": 48.160606,
+      "first_completion": {
+        "id": "2010/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 35.563891,
+        "ratio": 1.3606487870603756,
+        "retirement_pct": 26.15564056648291
+      },
+      "first_is_minimum": true,
+      "kernel": 26.137451,
+      "maximum_ids": [
+        "2010/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2010/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2010/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2010/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        35.563891,
+        35.706577
+      ],
+      "ratio": [
+        1.3606487870603756,
+        1.366107850379136
+      ],
+      "repayable_netting": 21.543619,
+      "retirement_pct": [
+        25.85936937753649,
+        26.15564056648291
+      ],
+      "year": 2010
+    },
+    {
+      "completions": 6,
+      "debt": 49.607764,
+      "first_completion": {
+        "id": "2011/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 36.897167,
+        "ratio": 1.3332678693112157,
+        "retirement_pct": 25.62219292931647
+      },
+      "first_is_minimum": true,
+      "kernel": 27.674234,
+      "maximum_ids": [
+        "2011/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2011/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2011/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2011/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        36.897167,
+        37.0603
+      ],
+      "ratio": [
+        1.3332678693112157,
+        1.3391626304814797
+      ],
+      "repayable_netting": 22.414978,
+      "retirement_pct": [
+        25.293347226857477,
+        25.62219292931647
+      ],
+      "year": 2011
+    },
+    {
+      "completions": 6,
+      "debt": 51.780042,
+      "first_completion": {
+        "id": "2012/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 39.147472,
+        "ratio": 1.3226195247195138,
+        "retirement_pct": 24.396600528056734
+      },
+      "first_is_minimum": true,
+      "kernel": 29.598438,
+      "maximum_ids": [
+        "2012/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2012/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2012/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2012/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        39.147472,
+        39.320076
+      ],
+      "ratio": [
+        1.3226195247195138,
+        1.3284510486668248
+      ],
+      "repayable_netting": 23.769424,
+      "retirement_pct": [
+        24.063259740113764,
+        24.396600528056734
+      ],
+      "year": 2012
+    },
+    {
+      "completions": 6,
+      "debt": 52.784431,
+      "first_completion": {
+        "id": "2013/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 39.74364,
+        "ratio": 1.3444625512673174,
+        "retirement_pct": 24.705752724700204
+      },
+      "first_is_minimum": true,
+      "kernel": 29.560987,
+      "maximum_ids": [
+        "2013/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2013/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2013/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2013/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        39.74364,
+        39.920741
+      ],
+      "ratio": [
+        1.3444625512673174,
+        1.3504535893879321
+      ],
+      "repayable_netting": 24.999218,
+      "retirement_pct": [
+        24.37023523091496,
+        24.705752724700204
+      ],
+      "year": 2013
+    },
+    {
+      "completions": 6,
+      "debt": 55.168868,
+      "first_completion": {
+        "id": "2014/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 41.974682,
+        "ratio": 1.34694657653325,
+        "retirement_pct": 23.91599914647514
+      },
+      "first_is_minimum": true,
+      "kernel": 31.162841,
+      "maximum_ids": [
+        "2014/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2014/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2014/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2014/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        41.974682,
+        42.13353
+      ],
+      "ratio": [
+        1.34694657653325,
+        1.3520439294992392
+      ],
+      "repayable_netting": 26.265689,
+      "retirement_pct": [
+        23.628068641901447,
+        23.91599914647514
+      ],
+      "year": 2014
+    },
+    {
+      "completions": 6,
+      "debt": 56.076987,
+      "first_completion": {
+        "id": "2015/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 42.826137,
+        "ratio": 1.3742966403358527,
+        "retirement_pct": 23.62974672658501
+      },
+      "first_is_minimum": true,
+      "kernel": 31.162222,
+      "maximum_ids": [
+        "2015/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2015/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2015/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2015/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        42.826137,
+        42.979389
+      ],
+      "ratio": [
+        1.3742966403358527,
+        1.3792145181431543
+      ],
+      "repayable_netting": 27.920578,
+      "retirement_pct": [
+        23.356458149222604,
+        23.62974672658501
+      ],
+      "year": 2015
+    },
+    {
+      "completions": 6,
+      "debt": 58.231278,
+      "first_completion": {
+        "id": "2016/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 44.800277,
+        "ratio": 1.3861181068045665,
+        "retirement_pct": 23.064925691653205
+      },
+      "first_is_minimum": true,
+      "kernel": 32.320678,
+      "maximum_ids": [
+        "2016/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2016/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2016/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2016/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        44.800277,
+        44.949205
+      ],
+      "ratio": [
+        1.3861181068045665,
+        1.3907259309349884
+      ],
+      "repayable_netting": 29.727961,
+      "retirement_pct": [
+        22.809173104529833,
+        23.064925691653205
+      ],
+      "year": 2016
+    },
+    {
+      "completions": 6,
+      "debt": 61.023842,
+      "first_completion": {
+        "id": "2017/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 47.143466,
+        "ratio": 1.3871861552875153,
+        "retirement_pct": 22.745824492663047
+      },
+      "first_is_minimum": true,
+      "kernel": 33.98496,
+      "maximum_ids": [
+        "2017/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2017/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2017/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2017/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        47.143466,
+        47.308778
+      ],
+      "ratio": [
+        1.3871861552875153,
+        1.392050424658437
+      ],
+      "repayable_netting": 30.922444,
+      "retirement_pct": [
+        22.474927094888585,
+        22.745824492663047
+      ],
+      "year": 2017
+    },
+    {
+      "completions": 6,
+      "debt": 63.222065,
+      "first_completion": {
+        "id": "2018/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 49.255341,
+        "ratio": 1.4252939881802262,
+        "retirement_pct": 22.091534023762115
+      },
+      "first_is_minimum": true,
+      "kernel": 34.558022,
+      "maximum_ids": [
+        "2018/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2018/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2018/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2018/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        49.255341,
+        49.418995
+      ],
+      "ratio": [
+        1.4252939881802262,
+        1.430029618014596
+      ],
+      "repayable_netting": 33.17551,
+      "retirement_pct": [
+        21.832678195500254,
+        22.091534023762115
+      ],
+      "year": 2018
+    },
+    {
+      "completions": 6,
+      "debt": 67.171152,
+      "first_completion": {
+        "id": "2019/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "netting": 52.378807,
+        "ratio": 1.4040006997111305,
+        "retirement_pct": 22.02187182974025
+      },
+      "first_is_minimum": true,
+      "kernel": 37.306824,
+      "maximum_ids": [
+        "2019/holder_correction/source_net_assets/maximum/agency_lookthrough",
+        "2019/issuer_correction/source_net_assets/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2019/holder_correction/source_net_assets/minimum/agency_lookthrough",
+        "2019/issuer_correction/source_net_assets/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        52.378807,
+        52.547817
+      ],
+      "ratio": [
+        1.4040006997111305,
+        1.4085309700981248
+      ],
+      "repayable_netting": 34.734078,
+      "retirement_pct": [
+        21.770260840546552,
+        22.02187182974025
+      ],
+      "year": 2019
+    },
+    {
+      "completions": 12,
+      "debt": 75.168506,
+      "first_completion": {
+        "id": "2020/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 59.992526,
+        "ratio": 1.431380665397685,
+        "retirement_pct": 20.18927980290043
+      },
+      "first_is_minimum": true,
+      "kernel": 41.912349,
+      "maximum_ids": [
+        "2020/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2020/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2020/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2020/issuer_correction/asset_correction/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2020/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2020/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2020/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2020/issuer_correction/asset_correction/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        59.992526,
+        60.21484
+      ],
+      "ratio": [
+        1.431380665397685,
+        1.4366849254858036
+      ],
+      "repayable_netting": 41.186907,
+      "retirement_pct": [
+        19.893525620956197,
+        20.18927980290043
+      ],
+      "year": 2020
+    },
+    {
+      "completions": 12,
+      "debt": 80.133987,
+      "first_completion": {
+        "id": "2021/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 61.953629,
+        "ratio": 1.3706596632826078,
+        "retirement_pct": 22.687449708448927
+      },
+      "first_is_minimum": true,
+      "kernel": 45.199863,
+      "maximum_ids": [
+        "2021/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2021/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2021/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2021/issuer_correction/asset_correction/maximum/agency_lookthrough"
+      ],
+      "minimum_ids": [
+        "2021/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2021/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2021/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2021/issuer_correction/asset_correction/minimum/agency_lookthrough"
+      ],
+      "netting": [
+        61.953629,
+        62.216137
+      ],
+      "ratio": [
+        1.3706596632826078,
+        1.3764673800006872
+      ],
+      "repayable_netting": 42.686261,
+      "retirement_pct": [
+        22.359863362345866,
+        22.687449708448927
+      ],
+      "year": 2021
+    },
+    {
+      "completions": 24,
+      "debt": 81.33318,
+      "first_completion": {
+        "id": "2022/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 61.011254,
+        "ratio": 1.3840275972288894,
+        "retirement_pct": 24.986021694958936
+      },
+      "first_is_minimum": true,
+      "kernel": 44.082397,
+      "maximum_ids": [
+        "2022/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2022/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2022/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2022/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2022/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2022/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2022/issuer_correction/asset_correction/maximum/agency_lookthrough",
+        "2022/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+      ],
+      "minimum_ids": [
+        "2022/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2022/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2022/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2022/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2022/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2022/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2022/issuer_correction/asset_correction/minimum/agency_lookthrough",
+        "2022/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+      ],
+      "netting": [
+        61.011254,
+        61.297861
+      ],
+      "ratio": [
+        1.3840275972288894,
+        1.3905292173653805
+      ],
+      "repayable_netting": 43.930018,
+      "retirement_pct": [
+        24.633635374886364,
+        24.986021694958936
+      ],
+      "year": 2022
+    },
+    {
+      "completions": 24,
+      "debt": 85.925233,
+      "first_completion": {
+        "id": "2023/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 66.255327,
+        "ratio": 1.3872123417257782,
+        "retirement_pct": 22.89188555357191
+      },
+      "first_is_minimum": true,
+      "kernel": 47.761489,
+      "maximum_ids": [
+        "2023/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2023/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2023/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2023/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2023/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2023/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2023/issuer_correction/asset_correction/maximum/agency_lookthrough",
+        "2023/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+      ],
+      "minimum_ids": [
+        "2023/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2023/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2023/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2023/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2023/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2023/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2023/issuer_correction/asset_correction/minimum/agency_lookthrough",
+        "2023/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+      ],
+      "netting": [
+        66.255327,
+        66.514553
+      ],
+      "ratio": [
+        1.3872123417257782,
+        1.3926398525808104
+      ],
+      "repayable_netting": 48.3392,
+      "retirement_pct": [
+        22.590197689658865,
+        22.89188555357191
+      ],
+      "year": 2023
+    },
+    {
+      "completions": 24,
+      "debt": 89.864869,
+      "first_completion": {
+        "id": "2024/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 69.59721,
+        "ratio": 1.375801317785839,
+        "retirement_pct": 22.553484165208094
+      },
+      "first_is_minimum": true,
+      "kernel": 50.586672,
+      "maximum_ids": [
+        "2024/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2024/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2024/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2024/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2024/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2024/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2024/issuer_correction/asset_correction/maximum/agency_lookthrough",
+        "2024/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+      ],
+      "minimum_ids": [
+        "2024/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2024/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2024/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2024/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2024/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2024/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2024/issuer_correction/asset_correction/minimum/agency_lookthrough",
+        "2024/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+      ],
+      "netting": [
+        69.59721,
+        69.863371
+      ],
+      "ratio": [
+        1.375801317785839,
+        1.381062802470975
+      ],
+      "repayable_netting": 50.863658,
+      "retirement_pct": [
+        22.257305020942052,
+        22.553484165208094
+      ],
+      "year": 2024
+    },
+    {
+      "completions": 24,
+      "debt": 96.065956,
+      "first_completion": {
+        "id": "2025/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "netting": 74.438535,
+        "ratio": 1.3629324049488822,
+        "retirement_pct": 22.513096106595764
+      },
+      "first_is_minimum": true,
+      "kernel": 54.616454,
+      "maximum_ids": [
+        "2025/holder_correction/equity_correction/maximum/agency_lookthrough",
+        "2025/holder_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2025/holder_correction/asset_correction/maximum/agency_lookthrough",
+        "2025/holder_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2025/issuer_correction/equity_correction/maximum/agency_lookthrough",
+        "2025/issuer_correction/equity_correction/maximum/agency_lookthrough/locked_contra_asset",
+        "2025/issuer_correction/asset_correction/maximum/agency_lookthrough",
+        "2025/issuer_correction/asset_correction/maximum/agency_lookthrough/locked_contra_asset"
+      ],
+      "minimum_ids": [
+        "2025/holder_correction/equity_correction/minimum/agency_lookthrough",
+        "2025/holder_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2025/holder_correction/asset_correction/minimum/agency_lookthrough",
+        "2025/holder_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2025/issuer_correction/equity_correction/minimum/agency_lookthrough",
+        "2025/issuer_correction/equity_correction/minimum/agency_lookthrough/locked_contra_asset",
+        "2025/issuer_correction/asset_correction/minimum/agency_lookthrough",
+        "2025/issuer_correction/asset_correction/minimum/agency_lookthrough/locked_contra_asset"
+      ],
+      "netting": [
+        74.438535,
+        74.721557
+      ],
+      "ratio": [
+        1.3629324049488822,
+        1.3681143964417757
+      ],
+      "repayable_netting": 54.000609,
+      "retirement_pct": [
+        22.21848393410044,
+        22.513096106595764
+      ],
+      "year": 2025
+    }
+  ]
+}

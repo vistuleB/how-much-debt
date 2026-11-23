@@ -1,0 +1,1376 @@
+{
+  "format_version": 1,
+  "status": "reviewed source dispositions; not an executable state calibration",
+  "entries": [
+    {
+      "table": "l110",
+      "line": 1,
+      "series": "FL704090005.Q",
+      "label": "Private depository institutions; total financial assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "bank_financial_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 2,
+      "series": "FL704010005.Q",
+      "label": "Private depository institutions; interbank transactions; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "R / X_B_res / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 3,
+      "series": "FL703025005.Q",
+      "label": "Private depository institutions; vault cash; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "C_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 4,
+      "series": "FL403197033.Q",
+      "label": "Government-sponsored enterprises; U.S.-chartered depository institutions deposits at Federal Home Loan Banks; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 5,
+      "series": "FL702050005.Q",
+      "label": "Private depository institutions; federal funds and security repurchase agreements; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_B / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 6,
+      "series": "LM704022005.Q",
+      "label": "Private depository institutions; debt securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "bank_securities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 7,
+      "series": "FL703069175.Q",
+      "label": "Private depository institutions; open market paper; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 8,
+      "series": "LM703061105.Q",
+      "label": "Private depository institutions; Treasury securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "B_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 9,
+      "series": "LM703061705.Q",
+      "label": "Private depository institutions; agency- and GSE-backed securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "L_B / J_B",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 10,
+      "series": "LM703062005.Q",
+      "label": "Private depository institutions; municipal securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "J_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 11,
+      "series": "LM703063005.Q",
+      "label": "Private depository institutions; corporate and foreign bonds; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "J_B / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 12,
+      "series": "FL704023005.Q",
+      "label": "Private depository institutions; loans; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 13,
+      "series": "FL703068005.Q",
+      "label": "Private depository institutions; depository institution loans n.e.c.; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 14,
+      "series": "FL703069005.Q",
+      "label": "Private depository institutions; other loans and advances; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 15,
+      "series": "FL703065005.Q",
+      "label": "Private depository institutions; total mortgages; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 16,
+      "series": "FL703066005.Q",
+      "label": "Private depository institutions; consumer credit; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 17,
+      "series": "LM763092305.Q",
+      "label": "U.S.-chartered depository institutions; U.S. direct investment abroad: intercompany debt (market value)",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "J_B / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 18,
+      "series": "LM703064105.Q",
+      "label": "Private depository institutions; corporate equities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "N_B / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 19,
+      "series": "LM763092100.Q",
+      "label": "U.S.-chartered depository institutions; U.S. direct investment abroad: equity (market value)",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "N_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 20,
+      "series": "FL703094905.Q",
+      "label": "Private depository institutions; miscellaneous other equity; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "N_B / X_B_res",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 21,
+      "series": "LM703064205.Q",
+      "label": "Private depository institutions; mutual fund shares; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "N_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 22,
+      "series": "FL763040005.Q",
+      "label": "U.S.-chartered depository institutions; life insurance reserves; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 23,
+      "series": "FL703090005.Q",
+      "label": "Private depository institutions; miscellaneous assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_B_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 24,
+      "series": "FL704194005.Q",
+      "label": "Private depository institutions; total liabilities and equity",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "bank_liabilities_and_equity",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 25,
+      "series": "FL704190005.Q",
+      "label": "Private depository institutions; total liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "bank_financial_liabilities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 26,
+      "series": "FL704110005.Q",
+      "label": "Private depository institutions; interbank transactions; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U / Q_B_res / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 27,
+      "series": "FL703127005.Q",
+      "label": "Private depository institutions; checkable deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "M / Q_B_res",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 28,
+      "series": "FL703130005.Q",
+      "label": "Private depository institutions; total time and savings deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "M / Q_B_res",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 29,
+      "series": "FL702150005.Q",
+      "label": "Private depository institutions; federal funds and security repurchase agreements; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_H / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 30,
+      "series": "FL704122005.Q",
+      "label": "Private depository institutions; debt securities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "bank_debt_security_funding",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 31,
+      "series": "FL703169175.Q",
+      "label": "Private depository institutions; open market paper; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_H / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 32,
+      "series": "FL763163005.Q",
+      "label": "U.S.-chartered depository institutions; corporate and foreign bonds; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_H / internal elimination",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l110",
+      "line": 33,
+      "series": "FL703169005.Q",
+      "label": "Private depository institutions; other loans and advances; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_H",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 34,
+      "series": "LM753192305.Q",
+      "label": "Foreign banking offices in the U.S.; foreign direct investment in U.S.: intercompany debt; liability (market value)",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "Q_B_H",
+      "role": "candidate",
+      "reason": "Completed benchmark policy: foreign intercompany debt is settleable funding held by the nonbank/rest of world, not a locked bank liability. Corrects the earlier candidate label; amounts unchanged."
+    },
+    {
+      "table": "l110",
+      "line": 35,
+      "series": "FL763178000.Q",
+      "label": "U.S.-chartered depository institutions; total taxes payable (net); liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 36,
+      "series": "FL703190005.Q",
+      "label": "Private depository institutions; miscellaneous liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "bank_misc_funding",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 37,
+      "series": "FL763194705.Q",
+      "label": "U.S.-chartered depository institutions; other investment by holding company parent; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 38,
+      "series": "FL703193005.Q",
+      "label": "Private depository institutions; unidentified miscellaneous liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l110",
+      "line": 39,
+      "series": "FL703181105.Q",
+      "label": "Private depository institutions; equity and investment fund shares excluding mutual fund shares and money market fund shares; liability (IMA)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "equity_bridge",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l110",
+      "line": 40,
+      "series": "LM763164105.Q",
+      "label": "U.S.-chartered depository institutions; corporate equities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l110",
+      "line": 41,
+      "series": "LM753192103.Q",
+      "label": "Foreign banking offices in the U.S.; foreign direct investment in U.S.: equity; liability (market value)",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l110",
+      "line": 42,
+      "series": "FL763194603.Q",
+      "label": "U.S.-chartered depository institutions; equity investment by parent holding company; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l110",
+      "line": 43,
+      "series": "FL753194503.Q",
+      "label": "Foreign banking offices in the U.S.; equity investment by funding corporations; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l110",
+      "line": 44,
+      "series": "FL763066303.Q",
+      "label": "U.S.-chartered depository institutions; leases to households; asset (Call Report; consolidated)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "L_B",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l110",
+      "line": 45,
+      "series": "FL703139105.Q",
+      "label": "Private depository institutions; uninsured checkable and time and savings deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "M",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 1,
+      "series": "FL714090005.Q",
+      "label": "Monetary authority; total financial assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_financial_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 2,
+      "series": "FL714010005.Q",
+      "label": "Monetary authority; interbank transactions with all depository institutions; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_interbank_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 3,
+      "series": "FL713022003.Q",
+      "label": "Monetary authority; Federal Reserve float; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res / reconciliation",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 4,
+      "series": "FL713068705.Q",
+      "label": "Monetary authority; loans to depository institutions, including AMLF, MMLF, and PPPLF; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 5,
+      "series": "FL713068703.Q",
+      "label": "Monetary authority; loans to domestic banks through the discount window; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 6,
+      "series": "FL763069143.Q",
+      "label": "U.S.-chartered depository institutions; commercial paper funded by borrowing from the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility (AMLF) and Money Market Mutual Fund Liquidity Facility (MMLF); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 7,
+      "series": "FL713068725.Q",
+      "label": "Monetary authority; loans to depository institutions under the Paycheck Protection Program Liquidity Facility (PPPLF), assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 8,
+      "series": "FL713068763.Q",
+      "label": "Monetary authority; loans to domestic banks through the Bank Term Funding Program; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 9,
+      "series": "FL713068753.Q",
+      "label": "Monetary authority; loans to domestic banks through other credit extensions; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "U",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 10,
+      "series": "FL713011515.Q",
+      "label": "Monetary authority; other U.S. reserves, currency and deposits; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res / J_F",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 11,
+      "series": "FL713091103.Q",
+      "label": "Monetary authority; nonofficial foreign currencies (swap lines); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 12,
+      "series": "FL713012003.Q",
+      "label": "Monetary authority; coin; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 13,
+      "series": "FL713011405.Q",
+      "label": "Monetary authority; reserve position in IMF (net); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res / reconciliation",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 14,
+      "series": "FL712051005.Q",
+      "label": "Monetary authority; security repurchase agreements, including other claims in official reserves; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 15,
+      "series": "LM714022005.Q",
+      "label": "Monetary authority; debt securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "fed_securities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 16,
+      "series": "FL713069603.Q",
+      "label": "Monetary authority; bankers' acceptances; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 17,
+      "series": "LM713061103.Q",
+      "label": "Monetary authority; total Treasury securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "B_F",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 18,
+      "series": "LM713061113.Q",
+      "label": "Monetary authority; Treasury bills; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "B_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 19,
+      "series": "LM713061125.Q",
+      "label": "Monetary authority; other Treasury securities, excluding Treasury bills; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "B_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 20,
+      "series": "LM713061705.Q",
+      "label": "Monetary authority; agency- and GSE-backed securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "fed_agency_securities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 21,
+      "series": "LM713061903.Q",
+      "label": "Monetary authority; agency mortgage-backed securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "L_F / J_F",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 22,
+      "series": "LM713061703.Q",
+      "label": "Monetary authority; agency- and GSE-backed securities other than MBS; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 23,
+      "series": "FL713011525.Q",
+      "label": "Monetary authority; other U.S. reserves, foreign securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 24,
+      "series": "FL713068005.Q",
+      "label": "Monetary authority; depository institution loans n.e.c.; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 25,
+      "series": "FL713068813.Q",
+      "label": "Monetary authority; depository institution loans n.e.c. to households under Term Asset-Backed Securities Loan Facility (TALF I); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 26,
+      "series": "FL713068665.Q",
+      "label": "Monetary authority; loans to brokers and dealers; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 27,
+      "series": "FL713068863.Q",
+      "label": "Monetary authority; loans to finance companies under the Paycheck Protection Program Liquidity Facility (PPPLF); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 28,
+      "series": "FL713068505.Q",
+      "label": "Monetary authority; depository institution loans n.e.c. to other financial business; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "J_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 29,
+      "series": "FL713064103.Q",
+      "label": "Monetary authority; corporate equities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "N_F",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 30,
+      "series": "FL713090005.Q",
+      "label": "Monetary authority; total miscellaneous assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_misc_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 31,
+      "series": "FL713011203.Q",
+      "label": "Monetary authority; monetary gold certificates; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 32,
+      "series": "FL713014003.Q",
+      "label": "Monetary authority; SDR certificates issued by federal government; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res",
+      "role": "candidate",
+      "reason": "Completed benchmark policy: SDR certificates remain a locked monetary-authority asset; no transfer or early-settlement permission is inferred. Corrects the earlier candidate J_F label; amounts unchanged."
+    },
+    {
+      "table": "l109",
+      "line": 33,
+      "series": "FL713093005.Q",
+      "label": "Monetary authority; unidentified miscellaneous assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 34,
+      "series": "FL714194005.Q",
+      "label": "Monetary authority; total liabilities and equity",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_liabilities_and_equity",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 35,
+      "series": "FL714190005.Q",
+      "label": "Monetary authority; total liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_financial_liabilities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 36,
+      "series": "FL713113003.Q",
+      "label": "Monetary authority; depository institution reserves, excluding FHLB deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "R",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 37,
+      "series": "FL713120005.Q",
+      "label": "Monetary authority; checkable deposits and currency; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_deposits_and_currency",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 38,
+      "series": "FL713123005.Q",
+      "label": "Monetary authority; checkable deposits due to the federal government; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "T",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 39,
+      "series": "FL713123023.Q",
+      "label": "Monetary authority; Treasury cash holdings; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "T / C_H currency bridge",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 40,
+      "series": "FL713123030.Q",
+      "label": "Monetary authority; deposits in Treasury general deposit account; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "T",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 41,
+      "series": "FL713123043.Q",
+      "label": "Monetary authority; deposits in Treasury temporary supplementary financing account; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "T",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 42,
+      "series": "FL713124005.Q",
+      "label": "Monetary authority; checkable deposits due to government-sponsored enterprises, including FHLB deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 43,
+      "series": "FL713129005.Q",
+      "label": "Monetary authority; total checkable deposits due to other financial business; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 44,
+      "series": "FL713122605.Q",
+      "label": "Monetary authority; checkable deposits due to rest of the world; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 45,
+      "series": "FL713125005.Q",
+      "label": "Monetary authority; currency outside banks; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "C_H",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 46,
+      "series": "FL703025005.Q",
+      "label": "Private depository institutions; vault cash; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "C_B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 47,
+      "series": "FL712151003.Q",
+      "label": "Monetary authority; security repurchase agreements; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H / Q_G",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l109",
+      "line": 48,
+      "series": "FL712151103.Q",
+      "label": "Monetary authority; security repurchase agreements, reverse repurchase agreement operations; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 49,
+      "series": "FL712151115.Q",
+      "label": "Monetary authority; security repurchase agreements, excluding those in the reverse repurchase agreement operations; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_H / Q_G",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 50,
+      "series": "FL713193005.Q",
+      "label": "Monetary authority; unidentified miscellaneous liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_lock",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l109",
+      "line": 51,
+      "series": "FL713164005.Q",
+      "label": "Monetary authority; equity and investment fund shares; liability (SBS)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_equity_bridge",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l109",
+      "line": 52,
+      "series": "FL313094213.Q",
+      "label": "Federal government; Exchange Stabilization Fund Economic Recovery Programs investment in Money Market Mutual Fund Liquidity Facility (MMLF); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 53,
+      "series": "FL713164003.Q",
+      "label": "Monetary authority; Federal Reserve bank stock; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_equity_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 54,
+      "series": "FL714022065.Q",
+      "label": "Monetary authority; debt securities; asset (amortized cost)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_valuation_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 55,
+      "series": "FL713061163.Q",
+      "label": "Monetary authority; Treasury securities; asset (amortized cost)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_valuation_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l109",
+      "line": 56,
+      "series": "FL713061765.Q",
+      "label": "Monetary authority; agency- and GSE-backed securities; asset (amortized cost)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "fed_valuation_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 1,
+      "series": "FL314090005.Q",
+      "label": "Federal government; total financial assets",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 2,
+      "series": "FL313011105.Q",
+      "label": "Federal government; monetary gold and SDRs; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 3,
+      "series": "FL313020005.Q",
+      "label": "Federal government; checkable deposits; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "T / Q_B_res counterpart",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l106",
+      "line": 4,
+      "series": "FL313030003.Q",
+      "label": "Federal government; total time and savings deposits; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Q_B_res counterpart",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l106",
+      "line": 5,
+      "series": "FL313030505.Q",
+      "label": "Federal government; other deposits; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 6,
+      "series": "FL313011545.Q",
+      "label": "Federal government; other U.S. reserves, other claims (repurchase agreements); asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 7,
+      "series": "FL314022005.Q",
+      "label": "Federal government; debt securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 8,
+      "series": "FL313061703.Q",
+      "label": "Federal government; agency- and GSE-backed securities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 9,
+      "series": "FL313063005.Q",
+      "label": "Federal government; corporate and foreign bonds; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 10,
+      "series": "FL314023005.Q",
+      "label": "Federal government; loans; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 11,
+      "series": "FL313069005.Q",
+      "label": "Federal government; other loans and advances; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 12,
+      "series": "FL313065005.Q",
+      "label": "Federal government; total mortgages; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 13,
+      "series": "FL313066220.Q",
+      "label": "Federal government; consumer credit, student loans; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 14,
+      "series": "LM313064105.Q",
+      "label": "Federal government; corporate equities; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 15,
+      "series": "FL313081115.Q",
+      "label": "Federal government; other equity; asset (IMA)",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 16,
+      "series": "FL313070000.Q",
+      "label": "Federal government; trade receivables; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 17,
+      "series": "FL313078000.Q",
+      "label": "Federal government; total taxes receivable; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_assets",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 18,
+      "series": "FL314190005.Q",
+      "label": "Federal government; total liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 19,
+      "series": "LM313111303.Q",
+      "label": "Federal government; special drawing rights (SDRs) allocations; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, market value, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 20,
+      "series": "FL313125003.Q",
+      "label": "Federal government; Treasury currency; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "currency_issuer_bridge",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 21,
+      "series": "FL313131003.Q",
+      "label": "Federal government; postal savings system deposits; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 22,
+      "series": "FL314122005.Q",
+      "label": "Federal government; debt securities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "B",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 23,
+      "series": "FL313161105.Q",
+      "label": "Federal government; total marketable Treasury securities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "B",
+      "role": "candidate",
+      "reason": "Named position candidate; eligibility and common valuation must still be established."
+    },
+    {
+      "table": "l106",
+      "line": 24,
+      "series": "FL313161705.Q",
+      "label": "Federal government; budget agency securities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "B / other government issuer",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l106",
+      "line": 25,
+      "series": "FL314123005.Q",
+      "label": "Federal government; loans; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 26,
+      "series": "FL313165403.Q",
+      "label": "Federal government; multifamily residential mortgages; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 27,
+      "series": "FL313169005.Q",
+      "label": "Federal government; other loans and advances; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "B / Treasury perimeter",
+      "role": "split",
+      "reason": "Counterparty, valuation, consolidation or representation split required before a model input can be emitted."
+    },
+    {
+      "table": "l106",
+      "line": 28,
+      "series": "FL313169205.Q",
+      "label": "Federal government; total nonmarketable Treasury securities; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "B / Treasury perimeter",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 29,
+      "series": "FL313140003.Q",
+      "label": "Federal government; life insurance reserves; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 30,
+      "series": "FL313170005.Q",
+      "label": "Federal government; trade payables; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 31,
+      "series": "FL313190005.Q",
+      "label": "Federal government; total miscellaneous liabilities",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "control",
+      "reason": "Published parent total; validate children, never add alongside them."
+    },
+    {
+      "table": "l106",
+      "line": 32,
+      "series": "FL713011203.Q",
+      "label": "Monetary authority; monetary gold certificates; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res counterpart",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 33,
+      "series": "FL713014003.Q",
+      "label": "Monetary authority; SDR certificates issued by federal government; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "X_F_res counterpart",
+      "role": "memo",
+      "reason": "Nonadditive Treasury counterpart to locked Fed SDR certificates; outside transferable J under the conditional completion policy."
+    },
+    {
+      "table": "l106",
+      "line": 34,
+      "series": "FL343073045.Q",
+      "label": "Federal government defined benefit pension funds; claims of pension funds on sponsor; asset",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 35,
+      "series": "FL313172003.Q",
+      "label": "Federal government; Paycheck Protection Program payables; liability",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    },
+    {
+      "table": "l106",
+      "line": 36,
+      "series": "FL313190015.Q",
+      "label": "Federal government; miscellaneous liabilities, excluding claims of pension funds",
+      "units": "Millions of dollars; amounts outstanding end of period, not seasonally adjusted",
+      "assignment": "Treasury_unrepresented_liabilities",
+      "role": "memo",
+      "reason": "Nonadditive detail, cross-check, or government position outside the model; retained without inventing a coordinate."
+    }
+  ]
+}

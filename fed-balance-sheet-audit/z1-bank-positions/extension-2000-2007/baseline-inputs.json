@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "source_vintage": "2026-03-19",
+  "unchanged_baseline": {
+    "source_interpretation.py": "e5efbee0e04dd666a17bf5aaa0dc87d4bf610c2e4de8cc36c98d85d8b76ea3ff",
+    "real-world/input.json": "ff3e2fc29682c1a0de2126d79a4d97c9b7585ba7039cad621264f84875de1a6e",
+    "real-world/check.json": "6a420b1e8dba2693c3b0dfd7b4c366918aab87186113afd7c17614adb871ee56",
+    "row-split/input.json": "b186a70056e71962e6a22f0749d88c8c5a1011dfd1804ea8364841e5ab6e5e16",
+    "row-split/check.json": "c67f88f62a6afcf6e87f98ec498e28cc514cc54076edfcc6d99fbfd74025f8f8",
+    "row-split/restrictive-check.json": "cf5decad24ce074cc72995b71e1d32bf3c7f2884ca547fce19cefc07f70c87e3",
+    "extension-2009-2019/real-world/input.json": "ed84a6389caa7185ad9dc45d815bf329802cbeac1f4f4558637a153add1c4869",
+    "extension-2009-2019/real-world/check.json": "ac5b82fc7d22d170b2b72047b67d56e061ec1abae5594e8b6cae79d3904c81be",
+    "extension-2009-2019/row-split/check.json": "e19e342580836f3cbaaeefbf5f0c38e06ef3f0267491dd2cf47f1c62853434e1",
+    "extension-2009-2019/annual-series.json": "fbddd774136f97fc8aff71121cef252e68158846bbca5bc9e620615a56333b92"
+  },
+  "terminology_migration": "2026-11-22: spelling and generated fingerprints refreshed; economic numbers compared against cbdbf50."
+}

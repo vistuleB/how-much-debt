@@ -1,0 +1,29 @@
+{
+  "format_version": 1,
+  "vintage": "2026-03-19",
+  "downloaded": "2026-11-18",
+  "url": "https://www.federalreserve.gov/releases/z1/20260319/z1_csv_files.zip",
+  "archive": "raw/z1-20260319-csv.zip",
+  "sha256": "4a758a65a5190987a53e24039d91cc2b09ed55e57a2560bc640fdfe191ceee35",
+  "bytes": 7546422,
+  "units": "USD millions",
+  "quarter_dates": "end of period, not seasonally adjusted",
+  "classification_sources": [
+    {
+      "path": "raw/h41-20260102.pdf",
+      "url": "https://www.federalreserve.gov/releases/h41/20260102/h41.pdf",
+      "download_date": "2026-11-19",
+      "bytes": 191715,
+      "sha256": "5b4f9c0c95a4d6e32d27fa389ddbcedcbe7dbf72fa7b4c8e7b661b5f58390e8a",
+      "role": "H.4.1 released 2026-01-02; table 1, PDF page 2: foreign official/international reverse repos, December 31 level 356205 USD millions."
+    },
+    {
+      "path": "raw/z1-20260319.pdf",
+      "url": "https://www.federalreserve.gov/Releases/Z1/20260319/z1.pdf",
+      "download_date": "2026-11-19",
+      "bytes": 7452756,
+      "sha256": "275de9a67b565c85e57311d219faab533c501549c05e7a800c7a41946f3c1271",
+      "role": "Pinned Z.1 printed page 105, PDF page 107: L.109 FL712151115, footnote 12 includes Foreign Repo Pool."
+    }
+  ]
+}

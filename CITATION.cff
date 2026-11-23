@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use these files, cite this release. This is the replication package
+  of the paper "How much debt does money need?". Code is MIT; documentation and
+  the project's stored data are CC BY 4.0; the Federal Reserve data keep their
+  own terms (see LICENSE).
+title: "How much debt does money need? Replication files"
+type: software
+authors:
+  - family-names: Steinberger
+    given-names: John Paul
+abstract: >-
+  Code and data that compute the transaction-based debt kernel, the least
+  debt compatible with each sector's money and net financial position, for
+  the United States 2001-2025, from the Federal Reserve's Financial Accounts,
+  with independent checks of every stored balance sheet and of the
+  transactions that reach the kernel.
+keywords:
+  - debt kernel
+  - money
+  - debt
+  - sectoral balance sheets
+  - financial accounts
+  - flow of funds
+  - stock-flow consistency
+  - inside and outside money
+  - money creation
+  - debt reduction
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"
+doi: 10.5281/zenodo.24482763
+repository-code: "https://github.com/vistuleB/how-much-debt"

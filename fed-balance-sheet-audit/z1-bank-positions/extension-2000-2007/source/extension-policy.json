@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "base_policy": "calibration-policy.json",
+  "base_policy_sha256": "1008e70dafbd4497f67489c6fb563b5a6333f04c9206e13e56cfd5a15aeea4ae",
+  "years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "partial_years": [
+    2000
+  ],
+  "reference_bridge": "Source net-assets Fed equity, as in 2008; no extrapolation of the 2020 valuation remainder or its equity/asset correction family.",
+  "signed_misc": "When negative: either remove the signed contra-liability against E_F (headline), or gross it into existing locked X_F_res. Both keep liabilities nonnegative; neither invents an eligible asset. They give identical E_F-X_F and kernel/potential diagnostics. The net observation does not identify the underlying gross split.",
+  "missing_data": "2000 uninsured-deposit memo is published ND; bank/Fed IMA subsector tables have no 2000 row. Retain partial evidence, do not complete 2000. No interpolation, carry-forward or missing-stock derivation.",
+  "limits": "Same conditional eligibility, price, perimeter and pooling assumptions as the baseline. Annual endpoints and funded instantaneous reductions, not an identified intervening transaction history."
+}

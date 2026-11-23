@@ -1,0 +1,330 @@
+{
+  "financial_sector_nonfinancial_assets_2000": {
+    "series": "LM795013865.A",
+    "status": "Whole financial sector, not an observed bank/Fed split; no completion assigned",
+    "table": "s6a",
+    "units": "USD millions",
+    "value": 1019061
+  },
+  "format_version": 1,
+  "source_sha256": "4a758a65a5190987a53e24039d91cc2b09ed55e57a2560bc640fdfe191ceee35",
+  "stock_flow_backcast_diagnostic": [
+    {
+      "applied": false,
+      "candidate_nonfinancial_assets_2000": 9176,
+      "control_error": 0,
+      "max_observed_absolute_error": 1,
+      "networth_backcast": 14021,
+      "networth_from_2000_financial_sheet": 14021,
+      "observed_year_errors": [
+        {
+          "error": 0,
+          "year": 2002
+        },
+        {
+          "error": 0,
+          "year": 2003
+        },
+        {
+          "error": 0,
+          "year": 2004
+        },
+        {
+          "error": 0,
+          "year": 2005
+        },
+        {
+          "error": 0,
+          "year": 2006
+        },
+        {
+          "error": 0,
+          "year": 2007
+        },
+        {
+          "error": 0,
+          "year": 2008
+        },
+        {
+          "error": 0,
+          "year": 2009
+        },
+        {
+          "error": 0,
+          "year": 2010
+        },
+        {
+          "error": 0,
+          "year": 2011
+        },
+        {
+          "error": 0,
+          "year": 2012
+        },
+        {
+          "error": 0,
+          "year": 2013
+        },
+        {
+          "error": 0,
+          "year": 2014
+        },
+        {
+          "error": 0,
+          "year": 2015
+        },
+        {
+          "error": 0,
+          "year": 2016
+        },
+        {
+          "error": -1,
+          "year": 2017
+        },
+        {
+          "error": 0,
+          "year": 2018
+        },
+        {
+          "error": 0,
+          "year": 2019
+        },
+        {
+          "error": 0,
+          "year": 2020
+        },
+        {
+          "error": 0,
+          "year": 2021
+        },
+        {
+          "error": 0,
+          "year": 2022
+        },
+        {
+          "error": -1,
+          "year": 2023
+        },
+        {
+          "error": -1,
+          "year": 2024
+        }
+      ],
+      "table": "s61a",
+      "terms_2001": {
+        "FR712010095.A": -17,
+        "FU715015085.A": -16,
+        "FV712010095.A": 0,
+        "LM712010095.A": 9143
+      }
+    },
+    {
+      "applied": false,
+      "candidate_nonfinancial_assets_2000": 264639,
+      "control_error": 6258,
+      "max_observed_absolute_error": 13522,
+      "networth_backcast": 34338,
+      "networth_from_2000_financial_sheet": 40596,
+      "observed_year_errors": [
+        {
+          "error": 4192,
+          "year": 2002
+        },
+        {
+          "error": 5854,
+          "year": 2003
+        },
+        {
+          "error": 13398,
+          "year": 2004
+        },
+        {
+          "error": 13522,
+          "year": 2005
+        },
+        {
+          "error": 9361,
+          "year": 2006
+        },
+        {
+          "error": 13359,
+          "year": 2007
+        },
+        {
+          "error": 12321,
+          "year": 2008
+        },
+        {
+          "error": 8373,
+          "year": 2009
+        },
+        {
+          "error": 7092,
+          "year": 2010
+        },
+        {
+          "error": 5458,
+          "year": 2011
+        },
+        {
+          "error": 9444,
+          "year": 2012
+        },
+        {
+          "error": 1283,
+          "year": 2013
+        },
+        {
+          "error": 3683,
+          "year": 2014
+        },
+        {
+          "error": 4194,
+          "year": 2015
+        },
+        {
+          "error": 6173,
+          "year": 2016
+        },
+        {
+          "error": 5715,
+          "year": 2017
+        },
+        {
+          "error": 4851,
+          "year": 2018
+        },
+        {
+          "error": 5175,
+          "year": 2019
+        },
+        {
+          "error": 3634,
+          "year": 2020
+        },
+        {
+          "error": 3919,
+          "year": 2021
+        },
+        {
+          "error": 5028,
+          "year": 2022
+        },
+        {
+          "error": 4326,
+          "year": 2023
+        },
+        {
+          "error": 4872,
+          "year": 2024
+        }
+      ],
+      "table": "s62a",
+      "terms_2001": {
+        "FR702010095.A": -3266,
+        "FU705015085.A": 4808,
+        "FV702010095.A": -296,
+        "LM702010095.A": 265885
+      }
+    }
+  ],
+  "years": [
+    {
+      "clearing_float": 901,
+      "completed": false,
+      "missing": [
+        {
+          "binding": false,
+          "label": "Private depository institutions; uninsured checkable and time and savings deposits; liability",
+          "raw": "ND",
+          "reason": "published_ND",
+          "series": "FL703139105.Q",
+          "table": "l110"
+        },
+        {
+          "binding": true,
+          "label": "Monetary authority; net worth (IMA)",
+          "raw": null,
+          "reason": "period_absent",
+          "series": "FL712090095.A",
+          "table": "s61a"
+        },
+        {
+          "binding": true,
+          "label": "Monetary authority; nonfinancial assets (does not include land) ",
+          "raw": null,
+          "reason": "period_absent",
+          "series": "LM712010095.A",
+          "table": "s61a"
+        },
+        {
+          "binding": true,
+          "label": "Private depository institutions; net worth (IMA)",
+          "raw": null,
+          "reason": "period_absent",
+          "series": "FL702090095.A",
+          "table": "s62a"
+        },
+        {
+          "binding": true,
+          "label": "Private depository institutions; nonfinancial assets (does not include land)",
+          "raw": null,
+          "reason": "period_absent",
+          "series": "LM702010095.A",
+          "table": "s62a"
+        }
+      ],
+      "source_cells": 188,
+      "year": 2000
+    },
+    {
+      "clearing_float": -23,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2001
+    },
+    {
+      "clearing_float": 418,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2002
+    },
+    {
+      "clearing_float": -319,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2003
+    },
+    {
+      "clearing_float": 925,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2004
+    },
+    {
+      "clearing_float": 885,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2005
+    },
+    {
+      "clearing_float": -333,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2006
+    },
+    {
+      "clearing_float": -19,
+      "completed": true,
+      "missing": [],
+      "source_cells": 188,
+      "year": 2007
+    }
+  ]
+}

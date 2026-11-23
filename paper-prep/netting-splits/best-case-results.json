@@ -1,0 +1,227 @@
+[
+ {
+  "year": 2001,
+  "split_min": 10.167887193894249,
+  "pairwise": 12.426619818546818,
+  "pairwise_relaxed": 12.426619818546818,
+  "multilateral": 11.763203818546817,
+  "multilateral_relaxed": 11.762510818546817,
+  "checks_pass": true
+ },
+ {
+  "year": 2002,
+  "split_min": 11.036418284057692,
+  "pairwise": 13.214629588138607,
+  "pairwise_relaxed": 13.214629588138607,
+  "multilateral": 12.468629588138608,
+  "multilateral_relaxed": 12.467432588138607,
+  "checks_pass": true
+ },
+ {
+  "year": 2003,
+  "split_min": 12.380204118836467,
+  "pairwise": 14.832133124839036,
+  "pairwise_relaxed": 14.832133124839036,
+  "multilateral": 13.943973124839044,
+  "multilateral_relaxed": 13.943376124839041,
+  "checks_pass": true
+ },
+ {
+  "year": 2004,
+  "split_min": 13.39997503200502,
+  "pairwise": 16.432542265332014,
+  "pairwise_relaxed": 16.432542265332014,
+  "multilateral": 15.456208265332016,
+  "multilateral_relaxed": 15.45504026533202,
+  "checks_pass": true
+ },
+ {
+  "year": 2005,
+  "split_min": 14.885664633523135,
+  "pairwise": 18.30801394407997,
+  "pairwise_relaxed": 18.30801394407997,
+  "multilateral": 17.207979944079963,
+  "multilateral_relaxed": 17.205881944079966,
+  "checks_pass": true
+ },
+ {
+  "year": 2006,
+  "split_min": 16.38261256699987,
+  "pairwise": 20.027808888890483,
+  "pairwise_relaxed": 20.027808888890483,
+  "multilateral": 18.73922388889048,
+  "multilateral_relaxed": 18.738232888890483,
+  "checks_pass": true
+ },
+ {
+  "year": 2007,
+  "split_min": 17.219644240091043,
+  "pairwise": 21.234913549101673,
+  "pairwise_relaxed": 21.234913549101673,
+  "multilateral": 19.71708954910167,
+  "multilateral_relaxed": 19.71382654910167,
+  "checks_pass": true
+ },
+ {
+  "year": 2008,
+  "split_min": 17.685126185532816,
+  "pairwise": 23.00635179769646,
+  "pairwise_relaxed": 23.00635179769646,
+  "multilateral": 20.505054797696463,
+  "multilateral_relaxed": 20.41236579769646,
+  "checks_pass": true
+ },
+ {
+  "year": 2009,
+  "split_min": 18.981895586662468,
+  "pairwise": 23.59496150591901,
+  "pairwise_relaxed": 23.59496150591901,
+  "multilateral": 21.264074702494607,
+  "multilateral_relaxed": 21.196941702494602,
+  "checks_pass": true
+ },
+ {
+  "year": 2010,
+  "split_min": 19.8930794801199,
+  "pairwise": 24.014239568545797,
+  "pairwise_relaxed": 24.014239568545793,
+  "multilateral": 21.316478525167327,
+  "multilateral_relaxed": 21.316478525167323,
+  "checks_pass": true
+ },
+ {
+  "year": 2011,
+  "split_min": 20.88060889025548,
+  "pairwise": 24.964774148259895,
+  "pairwise_relaxed": 24.964774148259895,
+  "multilateral": 22.815793588153632,
+  "multilateral_relaxed": 22.769607588153633,
+  "checks_pass": true
+ },
+ {
+  "year": 2012,
+  "split_min": 21.737697124014453,
+  "pairwise": 26.207937912447566,
+  "pairwise_relaxed": 26.207937912447562,
+  "multilateral": 24.355238127566096,
+  "multilateral_relaxed": 24.308910127566104,
+  "checks_pass": true
+ },
+ {
+  "year": 2013,
+  "split_min": 22.84453238526798,
+  "pairwise": 27.28919814078417,
+  "pairwise_relaxed": 27.289198140784173,
+  "multilateral": 24.908600385752447,
+  "multilateral_relaxed": 24.908600385752454,
+  "checks_pass": true
+ },
+ {
+  "year": 2014,
+  "split_min": 23.464110528794006,
+  "pairwise": 28.047278701687773,
+  "pairwise_relaxed": 28.047278701687773,
+  "multilateral": 26.000531148000285,
+  "multilateral_relaxed": 26.000531148000285,
+  "checks_pass": true
+ },
+ {
+  "year": 2015,
+  "split_min": 24.04210157750058,
+  "pairwise": 29.234105231502685,
+  "pairwise_relaxed": 29.234105231502685,
+  "multilateral": 27.269547580220397,
+  "multilateral_relaxed": 27.269547580220404,
+  "checks_pass": true
+ },
+ {
+  "year": 2016,
+  "split_min": 25.070811046224385,
+  "pairwise": 30.881705454818942,
+  "pairwise_relaxed": 30.881705454818942,
+  "multilateral": 28.95935854222939,
+  "multilateral_relaxed": 28.95935854222939,
+  "checks_pass": true
+ },
+ {
+  "year": 2017,
+  "split_min": 26.166194325928018,
+  "pairwise": 32.204306728465205,
+  "pairwise_relaxed": 32.204306728465205,
+  "multilateral": 30.66635169148374,
+  "multilateral_relaxed": 30.50504782883397,
+  "checks_pass": true
+ },
+ {
+  "year": 2018,
+  "split_min": 27.44156565206668,
+  "pairwise": 34.515643749149326,
+  "pairwise_relaxed": 34.515643749149326,
+  "multilateral": 32.54827969373363,
+  "multilateral_relaxed": 32.43181585091362,
+  "checks_pass": true
+ },
+ {
+  "year": 2019,
+  "split_min": 28.709698405515255,
+  "pairwise": 36.05148104093676,
+  "pairwise_relaxed": 36.05148104093676,
+  "multilateral": 34.05580919208268,
+  "multilateral_relaxed": 34.00596872853937,
+  "checks_pass": true
+ },
+ {
+  "year": 2020,
+  "split_min": 32.387850511941494,
+  "pairwise": 41.812475024588004,
+  "pairwise_relaxed": 41.812475024588004,
+  "multilateral": 37.990005353226444,
+  "multilateral_relaxed": 37.81088621618913,
+  "checks_pass": true
+ },
+ {
+  "year": 2021,
+  "split_min": 37.15620002558495,
+  "pairwise": 43.62678458824122,
+  "pairwise_relaxed": 43.62678458824122,
+  "multilateral": 42.28113863571989,
+  "multilateral_relaxed": 41.94066855493682,
+  "checks_pass": true
+ },
+ {
+  "year": 2022,
+  "split_min": 38.4421599326062,
+  "pairwise": 44.93601473837241,
+  "pairwise_relaxed": 44.9360147383724,
+  "multilateral": 43.47778575750709,
+  "multilateral_relaxed": 43.47778575750709,
+  "checks_pass": true
+ },
+ {
+  "year": 2023,
+  "split_min": 40.70902082784807,
+  "pairwise": 49.07869156468212,
+  "pairwise_relaxed": 49.07869156468212,
+  "multilateral": 46.78642027837448,
+  "multilateral_relaxed": 46.78642027837447,
+  "checks_pass": true
+ },
+ {
+  "year": 2024,
+  "split_min": 42.977619388796064,
+  "pairwise": 52.328315028351824,
+  "pairwise_relaxed": 52.32831502835183,
+  "multilateral": 49.35829300000001,
+  "multilateral_relaxed": 49.358293,
+  "checks_pass": true
+ },
+ {
+  "year": 2025,
+  "split_min": 45.29930361188298,
+  "pairwise": 55.56903618083356,
+  "pairwise_relaxed": 55.56903618083356,
+  "multilateral": 52.201017,
+  "multilateral_relaxed": 52.201017,
+  "checks_pass": true
+ }
+]
